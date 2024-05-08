@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+    <StackLayout>
+        <VerticalStackLayout>
+            <Label Text="Fitness Uygulamama Hoş Geldiniz "
+             VerticalOptions="Fill" 
+              HorizontalOptions="Fill"
+              TextColor="MidnightBlue"
+             FontSize="Large"
+             Margin="520,90,0,0"
+                   FontFamily="Arial"
+                   />
+                <HorizontalStackLayout>
+                    <VerticalStackLayout>
+                    <Label Text="Eren Ali Koca"
+ VerticalOptions="Start" 
+  HorizontalOptions="Start"
+  TextColor="Yellow"
+ FontSize="Large"
+ Margin="200,200,0,0"
+       FontFamily="Arial"
+       />
+                        <Label Text="2212721021"
+VerticalOptions="Start" 
+ HorizontalOptions="Start"
+ TextColor="Yellow"
+FontSize="Large"
+Margin="200,100,0,0"
+      FontFamily="Arial"
+      />
+                    </VerticalStackLayout>
+                    <Image  
+                   x:Name="logo"
+                   Source="newlogo.png" 
+                   Scale="1.5" 
+                   Margin="600,100,0,0"
+                HeightRequest="300"
+                WidthRequest="300"
+                    
+                   >
+            </Image>
+                    </HorizontalStackLayout>
+            
+
+        </VerticalStackLayout>
+
+        <StackLayout Margin="0,0,0,30" 
+                     Padding="20" 
+                     VerticalOptions="EndAndExpand">
+
+            <Button x:Name="NavigateButtSn" 
+                    Text="Kayıt Ol" 
+                    Clicked="OnNavigateButtonClicked" 
+                    CornerRadius="20"
+                    Margin="30,0,30,40" 
+                    FontFamily="Arial" 
+                    FontAttributes="Bold" 
+                    FontSize="13"
+                    HeightRequest="60" 
+                    BackgroundColor="#364B51" 
+                    TextColor="#BFC4C6">
+            </Button>
+
+        </StackLayout>
+
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+
+    </StackLayout>
+</ScrollView>
+</ContentPage>
