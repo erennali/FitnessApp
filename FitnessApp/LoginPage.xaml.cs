@@ -12,7 +12,7 @@ public partial class LoginPage : ContentPage
     }
     private async void TapGestureRecognizer_Tapped_For_SignUp(object sender, EventArgs e)
     {
-        //await Navigation.PushAsync(new RegisterPage());
+        await Navigation.PushAsync(new RegisterPage());
     }
     private async void LoginButton_Clicked(object sender, EventArgs e)
     {
@@ -39,5 +39,9 @@ public partial class LoginPage : ContentPage
     private async void OnImageButtonClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new MainPage());
+    }
+    private async void OnPasswordButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PasswordPage()); //þifremi unuttum sayfasý oluþtur
     }
     }

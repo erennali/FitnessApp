@@ -37,7 +37,6 @@ D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Release.Net.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -355,3 +354,5 @@ D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\femalepng.scale-100.png
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\barbellcurls.scale-100.png
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\newlogo.scale-100.png
+D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.sourcelink.json
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll

@@ -6,7 +6,7 @@
              NavigationPage.HasNavigationBar="False">
     <ScrollView>
     <StackLayout>
-        <HorizontalStackLayout Margin="50,120,0,0" 
+        <HorizontalStackLayout Margin="50,80,0,0" 
                                Spacing="70" >
 
             <ImageButton Padding="0,0,0,2"
@@ -32,9 +32,13 @@
                     
                 </Image>
             <StackLayout Margin="35,0,35,0">
-                <Entry x:Name="EmailEntry" 
+                    <Entry x:Name="EmailEntry" 
                        Placeholder="E-Posta" 
-                       PlaceholderColor="White" 
+                       MaxLength="50" 
+                           IsTextPredictionEnabled="False" 
+                           TextTransform="Lowercase"
+                           Keyboard="Email"
+                    PlaceholderColor="White" 
                        Margin="20,0,20,0"
                        TextColor="{x:StaticResource White}"/>
             </StackLayout>
@@ -42,6 +46,7 @@
             <StackLayout Margin="35,10,35,0">
                 <Entry x:Name="PasswordEntry" 
                            Placeholder="Şifre" 
+                       MaxLength="20"
                            IsPassword="True" 
                            PlaceholderColor="White"
                                               Margin="20,0,20,0"
@@ -55,11 +60,23 @@
                         WidthRequest="295" 
                         CornerRadius="20" 
                         BackgroundColor="#364B51" 
-                        TextColor="#BFC4C6"
+                        TextColor="White"
                         FontFamily="Arial" 
                         FontAttributes="Bold" 
                         FontSize="13"/>
-            </StackLayout>
+                
+                    <Button HorizontalOptions="Center"
+                            x:Name="PasswordButton"
+                            Clicked="OnPasswordButtonClicked"
+                            Text="Şifremi Unuttum"
+                            CornerRadius="20"
+                            BackgroundColor="#364B51"
+                            TextColor="WhiteSmoke"
+                            FontFamily="Arial"
+                            FontAttributes="Italic"
+                            FontSize="13"
+                    />
+                </StackLayout>
         </StackLayout>
 
         <HorizontalStackLayout Spacing="15" 
