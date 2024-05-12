@@ -34,8 +34,20 @@
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.dll">
       <PackagePath>FitnessApp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\obj\Debug\net8.0\apphost.exe">
+      <PackagePath>FitnessAppWebApi.exe</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FitnessApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.runtimeconfig.json">
+      <PackagePath>FitnessAppWebApi.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\appsettings.Development.json">
+      <PackagePath>appsettings.Development.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\appsettings.json">
+      <PackagePath>appsettings.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -496,39 +508,6 @@
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.entityframeworkcore.sqlserver\8.0.4\lib\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.caching.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.caching.memory\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Memory.dll">
-      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
-      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
-      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
-      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
-      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
-      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
-      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
     </AppxPackagedFile>
@@ -579,6 +558,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.openapi\1.2.3\lib\netstandard2.0\Microsoft.OpenApi.dll">
+      <PackagePath>Microsoft.OpenApi.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.sqlserver.server\1.0.0\lib\netstandard2.0\Microsoft.SqlServer.Server.dll">
       <PackagePath>Microsoft.SqlServer.Server.dll</PackagePath>
@@ -636,6 +618,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\swashbuckle.aspnetcore.swagger\6.4.0\lib\net6.0\Swashbuckle.AspNetCore.Swagger.dll">
+      <PackagePath>Swashbuckle.AspNetCore.Swagger.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\swashbuckle.aspnetcore.swaggergen\6.4.0\lib\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <PackagePath>Swashbuckle.AspNetCore.SwaggerGen.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\swashbuckle.aspnetcore.swaggerui\6.4.0\lib\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <PackagePath>Swashbuckle.AspNetCore.SwaggerUI.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\system.identitymodel.tokens.jwt\6.35.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
       <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
@@ -763,6 +754,9 @@
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.dll">
+      <PackagePath>FitnessAppWebApi.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.deps.json">
       <PackagePath>FitnessApp.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -804,9 +798,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\system.composition.typedparts\6.0.0\lib\net6.0\System.Composition.TypedParts.dll">
       <PackagePath>System.Composition.TypedParts.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\system.io.pipelines\6.0.3\lib\net6.0\System.IO.Pipelines.dll">
-      <PackagePath>System.IO.Pipelines.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.codeanalysis.common\4.5.0\lib\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll">
       <PackagePath>cs\Microsoft.CodeAnalysis.resources.dll</PackagePath>
@@ -963,6 +954,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.5.0\lib\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll">
       <PackagePath>zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.deps.json">
+      <PackagePath>FitnessAppWebApi.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

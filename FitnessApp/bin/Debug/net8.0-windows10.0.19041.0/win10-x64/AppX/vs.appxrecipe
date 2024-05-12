@@ -29,25 +29,41 @@
     <AppXManifest Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-09T20:28:31.385</Modified>
+      <Modified>2024-05-12T13:00:20.636</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-09T20:25:01.990</Modified>
+      <Modified>2024-05-12T08:34:06.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.runtimeconfig.json">
       <PackagePath>FitnessApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-09T15:09:11.493</Modified>
+      <Modified>2024-05-12T08:34:05.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.dll">
       <PackagePath>FitnessApp.dll</PackagePath>
-      <Modified>2024-05-09T20:28:31.014</Modified>
+      <Modified>2024-05-12T13:00:18.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\obj\Debug\net8.0\apphost.exe">
+      <PackagePath>FitnessAppWebApi.exe</PackagePath>
+      <Modified>2024-05-12T11:50:57.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FitnessApp.exe</PackagePath>
-      <Modified>2024-05-09T20:28:31.017</Modified>
+      <Modified>2024-05-12T13:00:18.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.runtimeconfig.json">
+      <PackagePath>FitnessAppWebApi.runtimeconfig.json</PackagePath>
+      <Modified>2024-05-12T08:32:58.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\appsettings.Development.json">
+      <PackagePath>appsettings.Development.json</PackagePath>
+      <Modified>2024-05-12T08:30:49.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\appsettings.json">
+      <PackagePath>appsettings.json</PackagePath>
+      <Modified>2024-05-12T08:30:49.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -661,50 +677,6 @@
       <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
       <Modified>2024-03-19T23:35:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.caching.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:58:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.caching.memory\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Memory.dll">
-      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
-      <Modified>2023-10-31T14:59:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
-      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
-      <Modified>2023-10-31T14:59:20.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:59:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
-      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-      <Modified>2023-10-31T14:59:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:58:56.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
-      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
-      <Modified>2023-10-31T14:59:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:59:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
-      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
-      <Modified>2023-10-31T14:59:30.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
-      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
-      <Modified>2023-10-31T14:59:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
-      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-      <Modified>2023-10-31T14:58:52.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
       <Modified>2024-03-11T15:36:42.000</Modified>
@@ -772,6 +744,10 @@
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2024-04-18T23:36:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.openapi\1.2.3\lib\netstandard2.0\Microsoft.OpenApi.dll">
+      <PackagePath>Microsoft.OpenApi.dll</PackagePath>
+      <Modified>2020-08-29T20:14:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.sqlserver.server\1.0.0\lib\netstandard2.0\Microsoft.SqlServer.Server.dll">
       <PackagePath>Microsoft.SqlServer.Server.dll</PackagePath>
@@ -848,6 +824,18 @@
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-03-11T10:57:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\swashbuckle.aspnetcore.swagger\6.4.0\lib\net6.0\Swashbuckle.AspNetCore.Swagger.dll">
+      <PackagePath>Swashbuckle.AspNetCore.Swagger.dll</PackagePath>
+      <Modified>2022-07-19T15:21:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\swashbuckle.aspnetcore.swaggergen\6.4.0\lib\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <PackagePath>Swashbuckle.AspNetCore.SwaggerGen.dll</PackagePath>
+      <Modified>2022-07-19T15:21:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\swashbuckle.aspnetcore.swaggerui\6.4.0\lib\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <PackagePath>Swashbuckle.AspNetCore.SwaggerUI.dll</PackagePath>
+      <Modified>2022-07-19T15:21:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\system.identitymodel.tokens.jwt\6.35.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
       <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
@@ -1017,9 +1005,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-03-08T18:44:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.dll">
+      <PackagePath>FitnessAppWebApi.dll</PackagePath>
+      <Modified>2024-05-12T11:50:57.357</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.deps.json">
       <PackagePath>FitnessApp.deps.json</PackagePath>
-      <Modified>2024-05-09T20:25:02.118</Modified>
+      <Modified>2024-05-12T08:34:06.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>
@@ -1072,10 +1064,6 @@
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\system.composition.typedparts\6.0.0\lib\net6.0\System.Composition.TypedParts.dll">
       <PackagePath>System.Composition.TypedParts.dll</PackagePath>
       <Modified>2021-10-22T23:48:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\system.io.pipelines\6.0.3\lib\net6.0\System.IO.Pipelines.dll">
-      <PackagePath>System.IO.Pipelines.dll</PackagePath>
-      <Modified>2022-04-13T17:49:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.codeanalysis.common\4.5.0\lib\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll">
       <PackagePath>cs\Microsoft.CodeAnalysis.resources.dll</PackagePath>
@@ -1284,6 +1272,10 @@
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.5.0\lib\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll">
       <PackagePath>zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
       <Modified>2023-02-09T19:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.deps.json">
+      <PackagePath>FitnessAppWebApi.deps.json</PackagePath>
+      <Modified>2024-05-12T08:32:58.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -6,15 +6,6 @@ D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.pdb
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Abstractions.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Debug.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.Compatibility.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.dll
@@ -152,7 +143,6 @@ D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.AssemblyInfo.cs
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.csproj.CoreCompileInputs.cache
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
-D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.csproj.CopyComplete
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\FitnessApp.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.pdb
@@ -188,8 +178,6 @@ D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Design.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Relational.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Caching.Abstractions.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Caching.Memory.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyModel.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Identity.Client.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -211,7 +199,6 @@ D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Composition.Runtime.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Composition.TypedParts.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.IdentityModel.Tokens.Jwt.dll
-D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Memory.Data.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Runtime.Caching.dll
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.CodeAnalysis.resources.dll
@@ -356,3 +343,15 @@ D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\newlogo.scale-100.png
 D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.sourcelink.json
 D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.csproj.Up2Date
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessAppWebApi.deps.json
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessAppWebApi.runtimeconfig.json
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\appsettings.Development.json
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\appsettings.json
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessAppWebApi.exe
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.OpenApi.dll
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Swashbuckle.AspNetCore.Swagger.dll
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessAppWebApi.dll
+D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessAppWebApi.pdb

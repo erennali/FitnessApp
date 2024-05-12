@@ -1,9 +1,13 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0-android
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
@@ -11,3 +15,459 @@ build_property.RootNamespace = FitnessApp
 build_property.ProjectDir = D:\C# PROJELER\FitnessApp\FitnessApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/AboutUsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.AboutUsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutUsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutUsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/BMIHeightPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.BMIHeightPage.xaml
+build_metadata.AdditionalFiles.TargetPath = BMIHeightPage.xaml
+build_metadata.AdditionalFiles.RelativePath = BMIHeightPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/BMIResultPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.BMIResultPage.xaml
+build_metadata.AdditionalFiles.TargetPath = BMIResultPage.xaml
+build_metadata.AdditionalFiles.RelativePath = BMIResultPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/BMIWeightPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.BMIWeightPage.xaml
+build_metadata.AdditionalFiles.TargetPath = BMIWeightPage.xaml
+build_metadata.AdditionalFiles.RelativePath = BMIWeightPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/ArmsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.ArmsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\ArmsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\ArmsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/BackPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.BackPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\BackPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\BackPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/ChestPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.ChestPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\ChestPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\ChestPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/GlutesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.GlutesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\GlutesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\GlutesPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/HamstringsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.HamstringsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\HamstringsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\HamstringsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/LegsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.LegsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\LegsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\LegsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/QuadsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.QuadsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\QuadsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\QuadsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/ShouldersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.ShouldersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\ShouldersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\ShouldersPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/BarbellCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.BarbellCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BarbellCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BarbellCurls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/BarbellHackSquat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.BarbellHackSquat.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BarbellHackSquat.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BarbellHackSquat.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/BenchPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.BenchPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BenchPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BenchPress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/BentOverRaises.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.BentOverRaises.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BentOverRaises.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BentOverRaises.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/CableFlye.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.CableFlye.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\CableFlye.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\CableFlye.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/CableRow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.CableRow.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\CableRow.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\CableRow.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/CalvesRaisers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.CalvesRaisers.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\CalvesRaisers.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\CalvesRaisers.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/ChestSupportedLateralRaises.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.ChestSupportedLateralRaises.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\ChestSupportedLateralRaises.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\ChestSupportedLateralRaises.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/Deadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.Deadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\Deadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\Deadlift.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/DeclinePress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.DeclinePress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DeclinePress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DeclinePress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/DumbellCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.DumbellCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellCurls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/DumbellFlyes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.DumbellFlyes.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellFlyes.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellFlyes.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/DumbellPullover.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.DumbellPullover.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellPullover.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellPullover.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/DumbellRomanianDeadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.DumbellRomanianDeadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellRomanianDeadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellRomanianDeadlift.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/DumbellShrugs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.DumbellShrugs.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellShrugs.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellShrugs.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/EzBarCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.EzBarCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\EzBarCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\EzBarCurls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/FacePulls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.FacePulls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\FacePulls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\FacePulls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/ForearmCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.ForearmCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\ForearmCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\ForearmCurls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/GobletSquat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.GobletSquat.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\GobletSquat.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\GobletSquat.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/HammerCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.HammerCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\HammerCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\HammerCurls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/HamstringCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.HamstringCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\HamstringCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\HamstringCurls.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/HorizontalLegPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.HorizontalLegPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\HorizontalLegPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\HorizontalLegPress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/InclineBenchPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.InclineBenchPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\InclineBenchPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\InclineBenchPress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/InclineDumbellPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.InclineDumbellPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\InclineDumbellPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\InclineDumbellPress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/LateralRaises.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.LateralRaises.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\LateralRaises.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\LateralRaises.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/LegLunges.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.LegLunges.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\LegLunges.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\LegLunges.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/OneArmShoulderPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.OneArmShoulderPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\OneArmShoulderPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\OneArmShoulderPress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/PullUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.PullUp.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\PullUp.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\PullUp.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/QuadExtensions.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.QuadExtensions.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\QuadExtensions.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\QuadExtensions.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/RomanianDeadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.RomanianDeadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\RomanianDeadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\RomanianDeadlift.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/SeatedDumbellFlyePress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.SeatedDumbellFlyePress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedDumbellFlyePress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedDumbellFlyePress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/SeatedLegCurk.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.SeatedLegCurk.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedLegCurk.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedLegCurk.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/SeatedLegCurl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.SeatedLegCurl.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedLegCurl.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedLegCurl.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/ShoulderPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.ShoulderPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\ShoulderPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\ShoulderPress.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/Shrugs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.Shrugs.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\Shrugs.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\Shrugs.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/SkullCrushers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.SkullCrushers.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SkullCrushers.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SkullCrushers.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/Squats.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.Squats.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\Squats.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\Squats.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/StandingCableRow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.StandingCableRow.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\StandingCableRow.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\StandingCableRow.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/StandingDumbelFlye.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.StandingDumbelFlye.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\StandingDumbelFlye.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\StandingDumbelFlye.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/SumoDeadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.SumoDeadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SumoDeadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SumoDeadlift.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Explanation/TricepsPushDown.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Explanation.TricepsPushDown.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\TricepsPushDown.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\TricepsPushDown.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/FemaleBodyParts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.FemaleBodyParts.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleBodyParts.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleBodyParts.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/FemaleFrontPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.FemaleFrontPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleFrontPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleFrontPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/FemaleMusclePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.FemaleMusclePage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleMusclePage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleMusclePage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/FemaleProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.FemaleProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleProfilePage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/FemaleSettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.FemaleSettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleSettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleSettingsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/GenderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.GenderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GenderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GenderPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/GoalsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.GoalsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GoalsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GoalsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/MaleBodyParts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MaleBodyParts.xaml
+build_metadata.AdditionalFiles.TargetPath = MaleBodyParts.xaml
+build_metadata.AdditionalFiles.RelativePath = MaleBodyParts.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/MaleFrontPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MaleFrontPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MaleFrontPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MaleFrontPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/MaleMusclePaGE.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MaleMusclePaGE.xaml
+build_metadata.AdditionalFiles.TargetPath = MaleMusclePaGE.xaml
+build_metadata.AdditionalFiles.RelativePath = MaleMusclePaGE.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/PasswordChangePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.PasswordChangePage.xaml
+build_metadata.AdditionalFiles.TargetPath = PasswordChangePage.xaml
+build_metadata.AdditionalFiles.RelativePath = PasswordChangePage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/PasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.PasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PasswordPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProfilePage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SettingsPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/TabbedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.TabbedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TabbedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TabbedPage.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/WorkoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.WorkoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = WorkoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = WorkoutPage.xaml

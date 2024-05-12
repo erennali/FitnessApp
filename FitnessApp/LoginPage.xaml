@@ -56,6 +56,7 @@
             <StackLayout Margin="35,30,35,0">
                 <Button x:Name="LoginButton" 
                         Text="Giriş Yap" 
+                        Clicked="LoginButton_Clicked"
                         HeightRequest="60" 
                         WidthRequest="295" 
                         CornerRadius="20" 
