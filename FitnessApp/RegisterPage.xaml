@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.RegisterPage"
              Title="Kayıt Ekranı">
+    <ScrollView>
     <StackLayout>
 
         <HorizontalStackLayout Margin="50,70,0,220" 
@@ -24,7 +25,14 @@
         </HorizontalStackLayout>
 
         <StackLayout>
-
+            <Image
+Source="https://cdn.pixabay.com/photo/2017/10/05/14/43/register-2819608_640.jpg" 
+Scale="1.5" 
+Margin="60,-200,0,0"
+HeightRequest="300"
+WidthRequest="300"
+     >
+            </Image>
             <StackLayout Margin="35,10,35,0">
                 <Entry x:Name="UsernameEntry" 
                        Placeholder="Kullanıcı Adı" 
@@ -57,26 +65,29 @@
             />
 
                 <DatePicker
-                
+                 x:Name="DateEntry"
                 Margin="25,13,0,0"
-                Date="06/21/2024"
+                Date="03/11/2004"
                 MaximumDate="06/30/2024"
                 MinimumDate="01/01/1950"
                 />
                 <Picker 
+                    SelectedIndex="0"
+                    x:Name="PickerEntry"
                     Margin="100,0,0,0"
                     Title="Cinsiyet">
                     <Picker.Items>
                         <x:String>Erkek</x:String>
                         <x:String>Kadın</x:String>
-                        
+
                     </Picker.Items>
                 </Picker>
             </HorizontalStackLayout>
 
-            <StackLayout Margin="35,80,35,0">
+            <StackLayout Margin="35,0,35,0">
                 <Button x:Name="SignUpButton" 
                         Text="Kayıt Ol" 
+                        Clicked="SignUpButton_Clicked"
                         HeightRequest="60" 
                         WidthRequest="295" 
                         CornerRadius="20" 
@@ -95,5 +106,5 @@
             </LinearGradientBrush>
         </StackLayout.Background>
 
-    </StackLayout>
+    </StackLayout></ScrollView>
 </ContentPage>
