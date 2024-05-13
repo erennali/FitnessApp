@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="facepulls.pmg"></Image>
+            Source="facepulls.png"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,17 +52,17 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Reach up and grasp the handles with both hands with your palms facing in. Step back until your arms are fully extended, then engage your core and lean back slightly, positioning your body at a roughly 20-degree angle.
-Pull the rope toward you just enough to start lifting the weight from the stack, then engage your shoulders, rolling them back to create good posture—you don't want your shoulders hunching or rolling forward. This is your starting position.
-Pull the handles of the attachment straight toward your forehead. Keep your palms facing in as your elbows flare outward toward the sides, engaging the rear delts.
-Reverse the movement and slowly extend your arms without allowing your shoulders or chest to roll forward as you extend. You want to maintain good posture throughout the exercise."
+        Text="Yukarı uzanın ve avuç içleriniz içeri bakacak şekilde iki elinizle tutacakları kavrayın. Kollarınız tamamen açılana kadar geri adım atın, ardından merkez bölgenizi çalıştırın ve vücudunuzu yaklaşık 20 derecelik bir açıyla konumlandırarak hafifçe geriye doğru eğilin.
+Ağırlığı yığından kaldırmaya başlamak için ipi kendinize doğru çekin, ardından omuzlarınızı kavrayın, iyi bir duruş oluşturmak için omuzlarınızı geriye doğru yuvarlayın - omuzlarınızın kamburlaşmasını veya öne doğru yuvarlanmasını istemezsiniz. Bu sizin başlangıç pozisyonunuzdur.
+Ataşmanın kollarını doğrudan alnınıza doğru çekin. Dirsekleriniz yanlara doğru dışa doğru açılırken avuç içlerinizi içeri bakacak şekilde tutun ve arka kaslarınızı çalıştırın.
+Hareketi tersine çevirin ve uzanırken omuzlarınızın veya göğsünüzün öne doğru yuvarlanmasına izin vermeden kollarınızı yavaşça uzatın. Egzersiz boyunca iyi duruşunuzu korumalısınız."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

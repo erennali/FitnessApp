@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="dumbellcurls.pmg"></Image>
+            Source="dumbellcurls.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,17 +52,17 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Grab a pair of dumbbells. ...
-Evenly distribute your weight and grip the floor with your feet to create a stable position. ...
-While keeping your upper arm still, squeeze your biceps and begin to bend your elbows. ...
-Slowly straighten your elbow to return to the starting position."
+        Text="Bir çift dambıl alın. ...
+Ağırlığınızı eşit olarak dağıtın ve sabit bir pozisyon oluşturmak için ayaklarınızla zemini kavrayın. ...
+Üst kolunuzu sabit tutarken bisepslerinizi sıkın ve dirseklerinizi bükmeye başlayın.
+Başlangıç pozisyonuna dönmek için dirseğinizi yavaşça düzeltin."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

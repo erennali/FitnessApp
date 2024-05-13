@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="chestsupportedlateralraises.pmg"></Image>
+            Source="chestsupportedlateralraises.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,30 +52,30 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="To target the rear delts we are going to set up a bench at a slight angle.
+        Text="Arka deltleri hedeflemek için hafif açılı bir bank kuracağız.
 
-Use an angle that allows you to get your chest rested firmly on the edge of the bench with your feet touching the ground.
+Ayaklarınız yere değecek şekilde göğsünüzü bankın kenarına sağlam bir şekilde dayamanızı sağlayacak bir açı kullanın.
 
-Dangle your arms over the bench with the dumbbells in your hands.
+Ellerinizdeki dambıllarla kollarınızı sehpanın üzerine sarkıtın.
 
-Let the dumbbells hang loose in your hands holding on to the outer neck.
+Dambılları dış boyun kısmından tutarak ellerinizde serbest bırakın.
 
-Rotate your wrists inwards so that your thumbs are facing each other.
+Başparmaklarınız birbirine bakacak şekilde bileklerinizi içe doğru döndürün.
 
-Keep a slight bend in your elbows, and really focus on making a swinging motion out and upwards with your arms.
+Dirseklerinizi hafifçe bükün ve kollarınızla dışarı ve yukarı doğru sallanma hareketi yapmaya odaklanın.
 
-Do not go super high in the concentric phase.
+Konsantrik fazda çok yükseğe çıkmayın.
 
-Just go far enough up to where you can feel your rear delts fully isolated.
+Sadece arka deltlerinizin tamamen izole olduğunu hissedebileceğiniz kadar yukarı çıkın.
 
-Going further than this may take tension off the rear delts and put it more towards the traps and upper back."
+Bundan daha ileri gitmek gerginliği arka kaslardan alıp daha çok tuzaklara ve sırtın üst kısmına verebilir."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

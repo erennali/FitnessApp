@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="shoulderpress.pmg"></Image>
+            Source="shoulderpress.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,16 +52,16 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="First, select your dumbbells. Don’t go overboard on the weight here, because this is an exercise that suddenly feels very tough halfway through a set. You almost want to feel like you’ve picked too light a weight for the first couple of reps. Opting for too heavy a weight can also mean you risk injury to your shoulders if your form gets sloppy as a result of the load.
+        Text="İlk olarak dambıllarınızı seçin. Burada ağırlık konusunda aşırıya kaçmayın, çünkü bu, setin yarısında aniden çok zor hissettiren bir egzersizdir. Neredeyse ilk birkaç tekrarda çok hafif bir ağırlık seçmişsiniz gibi hissetmek istersiniz. Çok ağır bir ağırlık seçmek, yükün bir sonucu olarak formunuz özensizleşirse omuzlarınızda yaralanma riski anlamına da gelebilir.
 
-Hold the dumbbells by your shoulders with your palms facing forwards and your elbows out to the sides and bent at a 90° angle. Without leaning back, extend through your elbows to press the weights above your head. Then slowly return to the starting position."
+Dambılları avuç içleriniz öne bakacak ve dirsekleriniz yanlara doğru 90° açıyla bükülecek şekilde omuzlarınızdan tutun. Geriye yaslanmadan, ağırlıkları başınızın üzerine bastırmak için dirseklerinizden uzatın. Ardından yavaşça başlangıç pozisyonuna dönün."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

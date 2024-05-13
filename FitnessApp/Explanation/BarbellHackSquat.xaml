@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="barbellhacksquat.pmg"></Image>
+            Source="barbellhacksquat.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,25 +52,25 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="a) Begin by setting up a barbell on the ground with a light weight.
+        Text="a) Hafif bir ağırlıkla yere bir halter koyarak başlayın.
 
-b) Stand directly in front of the barbell with your feet shoulder-width apart.
+b) Ayaklarınız omuz genişliğinde açık olacak şekilde doğrudan halterin önünde durun.
 
-c) Grasp the barbell with a double overhand grip and your hands just outside your knees.
+c) Halteri çift üstten tutuşla ve elleriniz dizlerinizin hemen dışında olacak şekilde kavrayın.
 
-ACTION:
-a) With your back straight and your core engaged, contract your quads to drive your heels into the ground and stand upwards. 
+EYLEM:
+a) Sırtınız dik ve merkez bölgeniz meşgulken, topuklarınızı yere bastırmak için dörtlü kaslarınızı kasın ve yukarı doğru kalkın. 
 
-b) Pause briefly, squeeze your glutes, and slowly return to the starting position.
+b) Kısa bir süre duraklayın, kalça kaslarınızı sıkın ve yavaşça başlangıç pozisyonuna dönün.
 
-c) Repeat!"
+c) Tekrarlayın!"
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

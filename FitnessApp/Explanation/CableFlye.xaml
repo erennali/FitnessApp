@@ -31,11 +31,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="cablefly.pmg"></Image>
+            Source="cablefly.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -53,19 +53,19 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Set both pulleys directly at (or slightly above) shoulder height and select the desired weight.
-Grasp both handles with a neutral grip and take a step forward to split the stance.
-Press the handles to lockout while flexing the pecs and extending the elbows.
-Keep a slight bend in the elbows, move entirely at the shoulder joint, and slowly allow the arms to open while the pecs stretch.
-Return to the starting position by flexing your pecs and bringing the handles together at chest height.
-Slowly lower back to the starting position and repeat for the desired number of repetitions."
+        Text="Her iki makarayı da doğrudan omuz yüksekliğine (veya biraz üstüne) ayarlayın ve istediğiniz ağırlığı seçin.
+Her iki kolu da nötr bir tutuşla kavrayın ve duruşu bölmek için öne doğru bir adım atın.
+Göğüs kaslarını esnetirken ve dirsekleri uzatırken kolları kilitlemek için bastırın.
+Dirsekleri hafifçe bükün, tamamen omuz ekleminde hareket edin ve göğüs kasları gerilirken kolların yavaşça açılmasına izin verin.
+Göğüs kaslarınızı esneterek ve kolları göğüs hizasında bir araya getirerek başlangıç pozisyonuna dönün.
+Yavaşça başlangıç pozisyonuna geri inin ve istediğiniz sayıda tekrar yapın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

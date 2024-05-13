@@ -2,7 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.BMIHeightPage"
-             NavigationPage.HasNavigationBar="False">
+             Title="Boy"
+             NavigationPage.HasNavigationBar="False"
+             >
+    
     <StackLayout>
 
         <StackLayout Orientation ="Horizontal" 
@@ -22,19 +25,19 @@
                HeightRequest="120"></Image>
         </StackLayout>
 
-        <Label Text="HEIGHT"
+        <Label Text="BOY"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
                FontFamily="ArialRoundedMTBold"
                FontSize="25"
                TextColor="White"
-               Margin="0,60,0,0"/>
+               Margin="0,40,0,0"/>
 
         <Slider x:Name="HeightSlider" 
                    WidthRequest="250"
-                   HeightRequest="150"
-                   Minimum="128"
-                   Maximum="228"
+                   HeightRequest="80"
+                   Minimum="120"
+                   Maximum="230"
                    MinimumTrackColor="#364B51"
                    MaximumTrackColor="#364B51"
                    ThumbColor="White" 
@@ -47,11 +50,11 @@
                HorizontalOptions="CenterAndExpand"
                FontSize="20" 
                TextColor="White"
-               Margin="0,0,0,110" 
+               Margin="0,0,0,100" 
                FontFamily="ArialRoundedMTBold"/>
 
         <Button x:Name="NextButton" 
-                Text="NEXT" 
+                Text="Devam" 
                 Clicked="OnNextButtonClicked" 
                 VerticalOptions="End" 
                 HorizontalOptions="CenterAndExpand"
@@ -62,7 +65,7 @@
                 HeightRequest="60" 
                 WidthRequest="300" 
                 BackgroundColor="#364B51" 
-                TextColor="#BFC4C6"/>
+                TextColor="White"/>
 
             <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">

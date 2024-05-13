@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="quadextensions.pmg"></Image>
+            Source="quadextensions.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,18 +52,18 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Set up the leg extension machine so the pad is at the top of your lower legs at the ankles. Your knees are at 90 degrees. Select a weight that will give you a moderate load for 10 to 12 repetitions.
-Place your hands on the hand bars.
-Lift the weight while exhaling until your legs are almost straight. Do not lock your knees. Keep your back against the backrest and do not arch your back.
-Exhale and lower the weight back to starting position.
-Do three sets of eight to 12 repetitions."
+        Text="Bacak uzatma makinesini, ped ayak bileklerinizde alt bacaklarınızın üst kısmında olacak şekilde ayarlayın. Dizleriniz 90 derecedir. Size 10 ila 12 tekrar için orta düzeyde yük sağlayacak bir ağırlık seçin.
+Ellerinizi el çubuklarının üzerine yerleştirin.
+Bacaklarınız neredeyse düz olana kadar nefes verirken ağırlığı kaldırın. Dizlerinizi kilitlemeyin. Sırtınızı arkalığa yaslayın ve sırtınızı kamburlaştırmayın.
+Nefes verin ve ağırlığı başlangıç pozisyonuna geri indirin.
+Sekiz ila 12 tekrardan oluşan üç set yapın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

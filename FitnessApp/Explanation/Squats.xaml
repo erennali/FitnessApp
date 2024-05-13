@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="squats.pmg"></Image>
+            Source="squats.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,22 +52,22 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Sacrificing form can lead to injury and will make the move ineffective. Common mistakes Tamir and Finestein see include:
-heels lifting off the ground, shifting the weight onto the toes—this often happens if you start the moves by bending the knees, rather than sending the hips back
-allowing the chest to fall forward
-curving the upper body and spine, creating a hunchback
-losing the neutral spine position in the lower back, particularly at the bottom of the exercise if you’re going low (often called the “butt wink”)
-standing with feet too wide or too narrow
-not controlling the movement or rushing through reps
-allowing the knees to cave in instead of keeping them tracking over toes
-not going deep enough by stopping with knees at a 90-degree bend"
+        Text="Formdan ödün vermek sakatlanmaya yol açabilir ve hareketi etkisiz hale getirir. Tamir ve Finestein'in gördüğü yaygın hatalar şunlardır
+Topukların yerden kaldırılması, ağırlığın ayak parmaklarına kaydırılması - bu genellikle kalçaları geriye göndermek yerine dizleri bükerek harekete başlandığında olur
+göğsün öne düşmesine izin vermek
+Vücudun üst kısmını ve omurgayı eğerek kamburluk yaratır
+Belde nötr omurga pozisyonunu kaybetmek, özellikle alçalıyorsanız egzersizin alt kısmında (genellikle popo kırpma olarak adlandırılır)
+çok geniş veya çok dar ayaklarla durmak
+hareketi kontrol etmemek veya tekrarlar arasında acele etmemek
+dizlerin ayak parmaklarını takip etmesini sağlamak yerine çökmesine izin vermek
+dizler 90 derece bükülmüş halde durarak yeterince derine inmemek"
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

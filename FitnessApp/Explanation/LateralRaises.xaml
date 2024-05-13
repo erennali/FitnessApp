@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="lateralraises.pmg"></Image>
+            Source="lateralraises.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,47 +52,33 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="1. Make a small move
-What Start each rep by slowly moving your hands out to the sides, then stopping.
+        Text="1. Küçük bir hamle yapın
+Ne Her tekrara ellerinizi yavaşça yanlara doğru hareket ettirerek başlayın ve sonra durun.
 
-Why Moving the dumbbells slightly places tension on your shoulders. The pause switches off your traps, which will otherwise muscle in on the move, taking emphasis off your shoulders.
+Neden Dambılları hafifçe hareket ettirmek omuzlarınıza gerilim yükler. Duraklama, aksi takdirde hareket sırasında kasılan ve omuzlarınızdan vurguyu alan traplarınızı kapatır.
 
-How Stand tall holding a dumbbell in each hand. Lean forward from the hips then, keeping your chest up and a slight bend in your elbows, use your side delts to raise the weights about 5cm out to the side, then pause for one second.
+Nasıl Her iki elinizde birer dambıl tutarak dik durun. Kalçanızdan öne doğru eğilin, ardından göğsünüzü yukarıda tutarak ve dirseklerinizi hafifçe bükerek yan kaslarınızı kullanarak ağırlıkları yana doğru yaklaşık 5 cm kaldırın, ardından bir saniye duraklayın.
 
-2. Lead with your elbows
-What Raise the dumbbells leading with your elbows, so that they’re the highest part of your arm.
+2. Dirseklerinizle yönlendirin
+Ne Dambılları dirsekleriniz önde olacak şekilde kaldırın, böylece kolunuzun en yüksek kısmı olurlar.
 
-Why Ensuring your elbows lead the move will again keep the focus on your delts and minimise the stress placed on your rotator cuffs, a small group of delicate but crucial stabilising muscles.
+Neden Dirseklerinizin harekete öncülük etmesini sağlamak, yine delt kaslarınıza odaklanmanızı sağlayacak ve küçük bir grup hassas ama önemli dengeleyici kas olan rotator manşetleriniz üzerindeki baskıyı en aza indirecektir.
 
-How From the paused position, re-initiate the move by raising your elbows up and out to the sides, maintaining that slight bend in the joint. Concentrate on how your side delts feel and contract as the weights are raised.
+Nasıl Duraklatılmış pozisyondan, eklemdeki hafif bükülmeyi koruyarak dirseklerinizi yukarı ve yanlara doğru kaldırarak hareketi yeniden başlatın. Ağırlıklar kaldırılırken yan deltlerinizin nasıl hissettiğine ve kasıldığına odaklanın.
 
-3. Turn your wrists
-What As your hands approach shoulder height, rotate your wrist so that your little fingers are uppermost.
+3. Bileklerinizi çevirin
+Ne Elleriniz omuz hizasına yaklaşırken bileğinizi döndürün, böylece küçük parmaklarınız en üstte olur.
 
-Why Turning your wrists as the dumbbells reach the top of the move activates more muscle fibres in your side delts, meaning each rep works the muscle even harder.
+Neden Dambıllar hareketin tepesine ulaştığında bileklerinizi döndürmek, yan deltlerinizde daha fazla kas lifini harekete geçirir, bu da her tekrarda kasın daha da sert çalıştığı anlamına gelir.
 
-How Once your elbows are at shoulder height turn your wrists as if you were pouring two jugs of water so your little fingers are the highest parts of your hands. Reverse this movement as you lower the weights again.
-
-4. Go down slower
-What From the top of the move lower the weights back to the start as slowly as possible.
-
-Why Taking your time to lower the dumbbells forces your shoulders to work harder to manage the weight, so you recruit more muscle fibres in order to maintain control. The more muscular damage you do, the greater your growth return.
-
-How Keep tension on your side delts as you lower the weights under full control, maintaining focus on how your delts feel. Aim for a two-second lowering phase at first, then increase it over time.
-
-5. Raise and stop
-What? Make a strategic stop just before the top of the move.
-
-Why? Adding a pause is great for muscle enhancement.
-
-How? Before a set of lateral raises, hold the weights just below shoulder height for ten seconds, then do ten reps. Repeat three times… strict."
+Nasıl Dirsekleriniz omuz hizasına geldiğinde bileklerinizi iki sürahi su döküyormuş gibi çevirin, böylece küçük parmaklarınız "
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="hamstringcurls.pmg"></Image>
+            Source="hamstringcurls.png"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,16 +52,16 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Exhale and flex your knees, pulling your ankles as close to your buttocks as possible. Keep your hips firmly on the bench.
-Hold briefly.
-Inhale as you return your feet to the starting position in a slow and controlled movement."
+        Text="Nefes verin ve dizlerinizi bükerek ayak bileklerinizi mümkün olduğunca kalçanıza yaklaştırın. Kalçanızı bankın üzerinde sıkıca tutun.
+Kısa bir süre bekleyin.
+Yavaş ve kontrollü bir hareketle ayaklarınızı başlangıç pozisyonuna döndürürken nefes alın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

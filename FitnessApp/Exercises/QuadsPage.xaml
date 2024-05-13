@@ -7,7 +7,7 @@
         <StackLayout>
 
             <Label
-                Text="QUADS EXERCISES"
+                Text="QUADS EGZERSİZLERİ"
                 FontSize="25"
                 FontFamily="Arial"
                 FontAttributes="Bold"

@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="forearmcurls.pmg"></Image>
+            Source="forearmcurls.png"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,16 +52,16 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Curl your wrists upward as you exhale. Perform this movement slowly to engage the forearms and prevent the weights from straining your wrists. 
-Extend your wrists downward as far as they will comfortably go on an inhale.
-Return the wrists to a neutral position.."
+        Text="Nefes verirken bileklerinizi yukarı doğru kıvırın. Ön kollarınızı çalıştırmak ve ağırlıkların bileklerinizi zorlamasını önlemek için bu hareketi yavaşça yapın. 
+Nefes alırken bileklerinizi rahatça gidebilecekleri kadar aşağı doğru uzatın.
+Bilekleri nötr pozisyona geri getirin."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

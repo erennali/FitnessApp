@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="shrugs.pmg"></Image>
+            Source="shrugs.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,14 +52,14 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Stand tall, holding a bar in an overhand grip with your hands just outside your thighs. Lift your shoulders straight up, hold for one or two seconds in this elevated position, then lower them back to the start. Throughout the exercise, make sure you keep your shoulders back and your spine and elbows straight."
+        Text="Elleriniz uyluklarınızın hemen dışında olacak şekilde bir barı üstten tutuşla tutarak dik durun. Omuzlarınızı düz bir şekilde yukarı kaldırın, bu yüksek pozisyonda bir veya iki saniye tutun, ardından başlangıç pozisyonuna geri indirin. Egzersiz boyunca omuzlarınızı geride, omurganızı ve dirseklerinizi düz tuttuğunuzdan emin olun."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

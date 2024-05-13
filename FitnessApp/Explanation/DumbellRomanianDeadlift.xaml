@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="dumbellshrugs.pmg"></Image>
+            Source="dumbellshrugs.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,17 +52,17 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Begin by standing with your feet hip-width apart and knees slightly bent. Hold one dumbbell in each hand, and place them in front of hips with palms facing thighs.
-Keeping your spine in a neutral position and squeezing the shoulder blades, start sending the hips back. 'My favourite cue for nailing this movement is imagining you want to close a draw behind you with your bum,' Van't Hoff says.
-Keeping the dumbbells close to your body, lower them down so they are in front of your shins. Once they pass the knees, do not allow the hips to sink further.
-Maintain a neutral spine and drive through heels to fully extend hips and knees, squeezing glutes at the top."
+        Text="Ayaklarınız kalça genişliğinde açık ve dizleriniz hafifçe bükülmüş şekilde ayakta durarak başlayın. Her iki elinizde birer dambıl tutun ve avuç içleriniz uyluklarınıza bakacak şekilde kalçalarınızın önüne yerleştirin.
+Omurganızı nötr bir pozisyonda tutarak ve kürek kemiklerinizi sıkarak kalçalarınızı geriye doğru göndermeye başlayın. Van't Hoff, Bu hareketi yapmak için en sevdiğim ipucu, kalçanızla arkanızdaki bir çekişi kapatmak istediğinizi hayal etmektir diyor.
+Dambılları vücudunuza yakın tutarak, kaval kemiklerinizin önüne gelecek şekilde aşağı indirin. Dizlerinizi geçtikten sonra kalçalarınızın daha fazla batmasına izin vermeyin.
+Nötr bir omurga sağlayın ve kalça ve dizlerinizi tamamen uzatmak için topuklarınızla ilerleyin, en üstte kalça kaslarınızı sıkın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

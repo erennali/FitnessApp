@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="leglunges.pmg"></Image>
+            Source="leglunges.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,16 +52,16 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Stand in a split stance with the right foot roughly 2 to 3 feet in front of the left foot. Your torso is straight, the shoulders are back and down, your core is engaged, and your hands are resting on your hips.
-Bend the knees and lower your body until the back knee is a few inches from the floor. At the bottom of the movement, the front thigh is parallel to the ground, the back knee points toward the floor, and your weight is evenly distributed between both legs.
-Push back up to the starting position, keeping your weight on the heel of the front foot."
+        Text="Sağ ayak sol ayağın yaklaşık 2 ila 3 adım önünde olacak şekilde ayrık bir duruşta durun. Gövdeniz düz, omuzlarınız geride ve aşağıda, merkeziniz devrede ve elleriniz kalçalarınızın üzerinde dursun.
+Dizlerinizi bükün ve arka diziniz yerden birkaç santim yüksekte olana kadar vücudunuzu indirin. Hareketin alt kısmında ön uyluk yere paralel, arka diz yere doğru bakar ve ağırlığınız her iki bacak arasında eşit olarak dağılır.
+Ağırlığınızı ön ayağınızın topuğunda tutarak başlangıç pozisyonuna geri itin."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

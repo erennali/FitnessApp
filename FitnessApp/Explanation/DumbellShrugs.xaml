@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="dumbellshrugs.pmg"></Image>
+            Source="dumbellshrugs.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,18 +52,18 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Begin with your feet underneath your hips, standing tall with the dumbbells at your sides and palms facing inwards (neutral grip).
-Engage your core by drawing your belly button to your spine.
-Initiate the movement by drawing your shoulders upwards whilst keeping the chest open and chin in place. Avoid rounding the shoulders and jutting your chin forward.
-Lift the shoulders to the end of your range of movement, this is very individual so it’s important to work within your capabilities.
-Squeeze the traps at the top of the movement for a beat and then reverse the movement slowly. This ensures the reps are controlled and maximises on the eccentric (downward) portion of the rep."
+        Text="Ayaklarınız kalçalarınızın altında, dambıllar yanlarınızda ve avuç içleriniz içe bakacak şekilde (nötr tutuş) dik durarak başlayın.
+Göbek deliğinizi omurganıza doğru çekerek merkez bölgenizi çalıştırın.
+Göğsünüzü açık ve çenenizi yerinde tutarken omuzlarınızı yukarı doğru çekerek hareketi başlatın. Omuzlarınızı yuvarlamaktan ve çenenizi öne çıkarmaktan kaçının.
+Omuzları hareket aralığınızın sonuna kadar kaldırın, bu çok bireyseldir, bu nedenle yetenekleriniz dahilinde çalışmak önemlidir.
+Hareketin üst kısmında bir vuruş için tuzakları sıkın ve ardından hareketi yavaşça tersine çevirin. Bu, tekrarların kontrollü olmasını sağlar ve tekrarın eksantrik (aşağı doğru) kısmını en üst düzeye çıkarır."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

@@ -30,11 +30,12 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="barbellcurls.pmg"></Image>
+            Source="barbellcurls.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
+                
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,16 +53,16 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Stand tall with your chest up and core braced, holding the barbell with your hands just outside of your hips, using an underhand grip. Keeping your chest up and your elbows tight to your sides, initiate the move by raising your hands slightly so you feel your biceps become engaged. While maintaining tension on your biceps, curl the bar up to shoulder height, then give your biceps a one-second squeeze. Start to lower the bar slowly, keeping your biceps tensed and engaged to work as many muscle fibres as possible.
+        Text="Göğsünüz yukarıda ve merkez bölgeniz destekli olacak şekilde dik durun, halteri ellerinizle kalçalarınızın hemen dışında, alttan tutuş kullanarak tutun. Göğsünüzü yukarıda ve dirseklerinizi yanlarınızda sıkı tutarak, ellerinizi hafifçe kaldırarak hareketi başlatın, böylece bisepslerinizin devreye girdiğini hissedersiniz. Pazılarınızdaki gerginliği korurken, barı omuz hizasına kadar kıvırın, ardından pazılarınızı bir saniyeliğine sıkın. Mümkün olduğunca çok kas lifini çalıştırmak için bisepslerinizi gergin ve meşgul tutarak barı yavaşça indirmeye başlayın.
 
-Once the bar is back in the start position, straighten your arms fully to tense your triceps to ensure that your biceps are worked through the fullest possible range of motion."
+Bar başlangıç pozisyonuna geri döndüğünde, bisepslerinizin mümkün olan en geniş hareket aralığında çalışmasını sağlamak için trisepslerinizi germek üzere kollarınızı tamamen düzleştirin."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

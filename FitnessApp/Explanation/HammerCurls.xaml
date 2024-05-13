@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="hammercurls.pmg"></Image>
+            Source="hammercurls.png"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,16 +52,16 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Bend at the elbow, lifting the lower arms to pull the weights toward the shoulders. Your upper arms are stationary and the wrists are in line with the forearms.
-Hold for one second at the top of the movement. Your thumbs will be close to the shoulders and palms facing in, toward the midline of the body.
-Lower the weights to return to the starting position."
+        Text="Dirsekten bükün, ağırlıkları omuzlara doğru çekmek için alt kolları kaldırın. Üst kollarınız sabit ve bilekler ön kollarla aynı hizada olsun.
+Hareketin üst kısmında bir saniye bekleyin. Başparmaklarınız omuzlara yakın olacak ve avuç içleriniz vücudun orta hattına doğru bakacaktır.
+Başlangıç pozisyonuna dönmek için ağırlıkları indirin."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

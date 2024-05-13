@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="seatedlegcurl.pmg"></Image>
+            Source="seatedlegcurl.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,18 +52,18 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Adjust the machine lever to fit your height and sit on the machine with your back against the back support pad.
-Place the back of lower leg on top of padded lever (just a few inches under the calves) and secure the lap pad against your thighs, just above the knees. Then grasp the side handles on the machine as you point your toes straight (or you can also use any of the other two stances) and ensure that the legs are fully straight right in front of you. This will be your starting position.
-As you exhale, pull the machine lever as far as possible to the back of your thighs by flexing at the knees. Keep your torso stationary at all times. Hold the contracted position for a second.
-Slowly return to the starting position as you breathe in.
-Repeat for the recommended amount of repetitions."
+        Text="Makine kolunu boyunuza uyacak şekilde ayarlayın ve sırtınızı sırt destek pedine dayayarak makineye oturun.
+Alt bacağınızın arka kısmını yastıklı kolun üzerine yerleştirin (baldırların sadece birkaç santim altına) ve kucak pedini dizlerinizin hemen üzerinde uyluklarınıza sabitleyin. Ardından, ayak parmaklarınızı düz tutarken (veya diğer iki duruştan herhangi birini de kullanabilirsiniz) makinenin yan kollarını kavrayın ve bacaklarınızın tam önünüzde tamamen düz olduğundan emin olun. Bu sizin başlangıç pozisyonunuz olacaktır.
+Nefes verirken dizlerinizi bükerek makinenin kolunu mümkün olduğunca uyluklarınızın arkasına doğru çekin. Gövdenizi her zaman sabit tutun. Kasılmış pozisyonu bir saniye boyunca koruyun.
+Nefes alırken yavaşça başlangıç pozisyonuna dönün.
+Önerilen tekrar sayısı kadar tekrarlayın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="dumbellpullover.pmg"></Image>
+            Source="dumbellpullover.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,17 +52,17 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Holding a set of dumbbells, lay with your back flat on a bench or stability ball.
-With your feet planted on the ground and your core engaged, extend your arms to the sky, holding the dumbbells together above your chest.
-Keeping your low back pressed into the bench or stability ball, slowly lower your arms overhead until your biceps reach your ears.
-Slowly bring your arms back to above your chest and repeat."
+        Text="Bir dizi dambıl tutarak, sırtınız düz olacak şekilde bir bank veya denge topunun üzerine uzanın.
+Ayaklarınız yere basarken ve merkez bölgeniz meşgulken, dambılları göğsünüzün üzerinde bir arada tutarak kollarınızı gökyüzüne doğru uzatın.
+Belinizi sehpaya veya denge topuna bastırarak, pazularınız kulaklarınıza ulaşana kadar kollarınızı yavaşça başınızın üzerine indirin.
+Kollarınızı yavaşça göğsünüzün üzerine geri getirin ve tekrarlayın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"

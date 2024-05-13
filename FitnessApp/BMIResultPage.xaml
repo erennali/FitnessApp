@@ -24,7 +24,7 @@
 
 
         <Label x:Name="BmiLabel" 
-               Text="YOUR BMI SCORE:"
+               Text="VÜCUT KİTLE İNDEKSİNİZ:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="Arial"
@@ -48,7 +48,7 @@
                TextColor="White"/>
 
         <Button x:Name="NextButton" 
-                Text="NEXT" 
+                Text="Devam" 
                 Clicked="OnNextButtonClicked" 
                 VerticalOptions="End" 
                 HorizontalOptions="CenterAndExpand"
@@ -59,7 +59,7 @@
                 HeightRequest="60" 
                 WidthRequest="300" 
                 BackgroundColor="#364B51" 
-                TextColor="#BFC4C6"/>
+                TextColor="White"/>
 
         <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">

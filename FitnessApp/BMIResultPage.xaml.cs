@@ -39,19 +39,19 @@ namespace FitnessApp
                 BmiValue = _bmi; 
                 if (_bmi < 18.5)
                 {
-                    _classification = "Underweight, focus on eating more";
+                    _classification = "Düþük kilolusunuz, daha fazla yemeye odaklanýn";
                 }
                 else if (_bmi >= 18.5 && _bmi <= 24.9)
                 {
-                    _classification = "Normal weight, you're doing just fine";
+                    _classification = "Normal kilodasýn, gayet iyi gidiyorsun.";
                 }
                 else if (_bmi >= 25 && _bmi <= 29.9)
                 {
-                    _classification = "Overweight, you should try to do more cardio workouts";
+                    _classification = "Aþýrý kiloluysanýz, daha fazla kardiyo egzersizi yapmaya çalýþmalýsýnýz";
                 }
                 else if (_bmi >= 30)
                 {
-                    _classification = "Obesity, focus on cardio workouts and eating less";
+                    _classification = "Obezite! Kardiyo ve egzersizlere odaklan, daha az ye";
                 }
                 ClassificationLabel.Text = _classification;
             }

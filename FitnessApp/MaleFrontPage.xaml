@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:FitnessApp.ViewModels"
-             
+             xmlns:models="clr-namespace:FitnessApp.Models;assembly=FitnessAppWebApi"
              x:Class="FitnessApp.MaleFrontPage"
              x:DataType="viewModels:IntroScreenViewModel"
              NavigationPage.HasNavigationBar="False">
-    
-    
+
+
     <Grid Margin="0,20,0,20" RowDefinitions="*,Auto">
 
         <Label 
@@ -29,17 +29,33 @@
                       VerticalOptions="Start" 
                       ItemsSource="{Binding IntroScreens}"
                       Margin="0,130,0,0">
-                      
 
-            <CarouselView.ItemTemplate>
-                <DataTemplate>
+
+            <!--<CarouselView.ItemTemplate>
+                <DataTemplate x:DataType="models:IntroScreenModels">
                     <Grid RowDefinitions="700*, 0*">
 
-                        
-                        
+                        <Frame
+                               CornerRadius="80"
+                               WidthRequest="300"
+                               HeightRequest="350"
+                               Background="Transparent"
+                               BorderColor="Transparent">
+
+                            <Image Source="{Binding IntroImage}" 
+                                   Aspect="AspectFit" 
+                                   Grid.Row="0" />
+                        </Frame>
+                        <VerticalStackLayout WidthRequest="320" 
+                                             Spacing="10" 
+                                             Grid.Row="1" 
+                                             Margin="20,0,20,20">
+                            
+
+                        </VerticalStackLayout>
                     </Grid>
                 </DataTemplate>
-            </CarouselView.ItemTemplate>
+            </CarouselView.ItemTemplate>-->
         </CarouselView>
 
         <VerticalStackLayout  Grid.Row="1" 
@@ -55,8 +71,8 @@
                            SelectedIndicatorColor="#364B51" />
 
             <Button 
-                TextColor="#BFC4C6" 
-                Text="NEXT"
+                TextColor="White" 
+                Text="Devam"
                 FontAttributes="Bold"
                 FontSize="13"
                 HorizontalOptions="EndAndExpand"

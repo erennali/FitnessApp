@@ -7,7 +7,7 @@
         <StackLayout>
 
             <Label
-                Text="GLUTES EXERCISES"
+                Text="GLUTES EGZERSİZLERİ"
                 FontSize="25"
                 FontFamily="Arial"
                 FontAttributes="Bold"

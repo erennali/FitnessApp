@@ -18,7 +18,9 @@ public partial class LoginPage : ContentPage
     }
     private async void LoginButton_Clicked(object sender, EventArgs e)
     {
-        try
+        if (EmailEntry.Text  != null && PasswordEntry.Text != null)
+        { 
+            try
         {
             FitnessDbContext context = new FitnessDbContext();
             var query = context.Users.Where(u => u.Email == EmailEntry.Text);
@@ -34,10 +36,14 @@ public partial class LoginPage : ContentPage
                 await DisplayAlert("Hata", "Geçersiz E-Posta veya Þifre", "Tamam");
             }
         }
-        catch (Exception ex)
+            catch (Exception ex)
         {
             await DisplayAlert("Hata", ex.Message, "Tamam");
         }
+        }
+        else
+            await DisplayAlert("Hata","Boþ Alanlarý Doldurunuz!", "Tamam");
+
         //await Navigation.PushAsync(new BMIHeightPage());
 
     }

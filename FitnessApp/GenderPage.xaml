@@ -26,7 +26,7 @@
         <StackLayout HorizontalOptions="Center" 
                      Margin="0,60,0,0">
 
-            <Label Text="GENDER" 
+            <Label Text="CİNSİYET" 
                    HorizontalOptions="Center"  
                    Margin="0,0,0,40" 
                    FontSize="25" 
@@ -50,14 +50,14 @@
         </StackLayout>
 
         <Button x:Name="NextButton" 
-                Text="NEXT" 
+                Text="Devam" 
                 Clicked="OnNextButtonClicked" 
                 IsEnabled="False" 
                 HeightRequest="60" 
                 WidthRequest="295" 
                 CornerRadius="20" 
                 BackgroundColor="#364B51" 
-                TextColor="#BFC4C6"
+                TextColor="White"
                 Margin="0,160,0,0" 
                 FontFamily="Aria" 
                 FontAttributes="Bold" 

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.BMIWeightPage"
+             
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
 
@@ -22,17 +23,17 @@
                HeightRequest="120"></Image>
         </StackLayout>
 
-        <Label Text="WEIGHT"
+        <Label Text="KİLO"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
                FontFamily="ArialRoundedMTBold"
                FontSize="25"
                TextColor="White"
-               Margin="0,60,0,0"/>
+               Margin="0,80,0,0"/>
 
         <Slider x:Name="WeightSlider" 
                    WidthRequest="250"
-                   HeightRequest="150"
+                   HeightRequest="40"
                    Minimum="35"
                    Maximum="250"
                    MinimumTrackColor="#364B51"
@@ -51,7 +52,7 @@
                FontFamily="ArialRoundedMTBold"/>
 
         <Button x:Name="NextButton" 
-                Text="NEXT" 
+                Text="Devam" 
                 Clicked="OnNextButtonClicked" 
                 VerticalOptions="End" 
                 HorizontalOptions="CenterAndExpand"
@@ -62,7 +63,7 @@
                 HeightRequest="60" 
                 WidthRequest="300" 
                 BackgroundColor="#364B51" 
-                TextColor="#BFC4C6"/>
+                TextColor="White"/>
 
         <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">

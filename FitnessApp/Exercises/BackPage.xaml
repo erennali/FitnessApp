@@ -8,7 +8,7 @@
         <StackLayout>
 
             <Label
-                Text="BACK EXERCISES"
+                Text="SIRT EGZERSİZLERİ"
                 FontSize="25"
                 FontFamily="Arial"
                 FontAttributes="Bold"

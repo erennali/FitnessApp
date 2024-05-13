@@ -37,6 +37,7 @@ WidthRequest="300"
                 <Entry x:Name="UsernameEntry" 
                        Placeholder="Kullanıcı Adı" 
                        PlaceholderColor="White" 
+                       MaxLength="10"
                        Margin="20,0,20,0"
                        TextColor="{x:StaticResource White}"/>
             </StackLayout>
@@ -53,6 +54,7 @@ WidthRequest="300"
                 <Entry x:Name="PasswordEntry" 
                        Placeholder="Şifre" 
                        IsPassword="True" 
+                       MaxLength="20"
                        PlaceholderColor="White" 
                        Margin="20,0,20,0"
                        TextColor="{x:StaticResource White}"/>

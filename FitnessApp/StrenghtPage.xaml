@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.StrenghtPage"
+             Title="StrenghtPage">
+    <ScrollView>
+        <Grid RowSpacing="6"
+          ColumnSpacing="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <BoxView Color="Gray" />
+
+            <BoxView Grid.Column="1"
+                 Color="DimGray" />
+
+
+            <BoxView Grid.Row="2"
+                 Grid.ColumnSpan="2"
+                 Color="DarkGray" />
+
+
+
+            <Grid Grid.Column="0"
+                  Grid.Row="0"
+                RowSpacing="6"
+ColumnSpacing="6">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition />
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0"
+   Grid.Column="1"
+                   
+                Margin="1,20,0,0"
+   Text="EGZERSİZLER"
+   FontSize="30"
+   HorizontalOptions="CenterAndExpand"
+   VerticalOptions="StartAndExpand" />
+
+                <Button
+        Text="KOL" 
+        Grid.Column="0"
+                Margin="0,0,0,0"
+                Grid.Row="1"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                    Clicked="Button_Clicked"
+        HeightRequest="60" 
+        WidthRequest="100" 
+        CornerRadius="20" 
+        BackgroundColor="#364B51" 
+        TextColor="White"
+        FontFamily="Arial" 
+        FontAttributes="Bold" 
+        FontSize="13"/>
+
+                <Button
+Text="SIRT" 
+Grid.Column="1"
+        Margin="0,0,0,0"
+        Grid.Row="1"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_1"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+
+                <Button
+Text="GÖĞÜS" 
+Grid.Column="2"
+        Margin="0,0,0,0"
+        Grid.Row="1"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_2"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+
+                <Button
+Text="KALÇA" 
+Grid.Column="3"
+        Margin="0,0,0,0"
+        Grid.Row="1"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_3"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+
+                <Button
+Text="HAMSTRİNG" 
+Grid.Column="0"
+        Margin="0,0,0,0"
+        Grid.Row="2"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_4"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+
+                <Button
+Text="BACAK" 
+Grid.Column="1"
+        Margin="0,0,0,0"
+        Grid.Row="2"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_5"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+
+                <Button
+Text="QUADS" 
+Grid.Column="2"
+        Margin="0,0,0,0"
+        Grid.Row="2"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_6"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+
+                <Button
+Text="OMUZ" 
+Grid.Column="3"
+        Margin="0,0,0,0"
+        Grid.Row="2"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+                    Clicked="Button_Clicked_7"
+HeightRequest="60" 
+WidthRequest="100" 
+CornerRadius="20" 
+BackgroundColor="#364B51" 
+TextColor="White"
+FontFamily="Arial" 
+FontAttributes="Bold" 
+FontSize="13"/>
+            </Grid>
+            <Frame Grid.Column="1"
+            CornerRadius="30"
+            WidthRequest="600"
+            Margin="0,20,0,20"
+            BorderColor="Transparent"
+            Padding="20"
+            BackgroundColor="White"
+            Opacity="0.8">
+                <Label 
+        Text="Güç Antrenmanının Faydaları:
+
+
+
+Bir önceki antrenmana göre daha fazla ağırlıkla deadlift yapmak veya bench presste hayalini kurduğunuz ağırlığı kaldırmak bağımlılık yaratan duygulardır.
+
+
+
+Bir bakıma güç antrenmanı başlı başına bir ödüldür. Ancak güçlü kaslar sadece buzdağının görünen kısmı.
+
+
+
+-Kas Kuvveti ve Hacmi Artışı: Güç antrenmanları, kasların kuvvetini ve hacmini artırarak genel fiziksel gücü artırır.
+
+
+
+-Kemik ve Eklem Sağlığının İyileşmesi: Kemikleriniz, eklemleriniz ve tendonlarınız hipertrofi yaşamaz ve kaslar gibi büyümez. Ancak güç antrenmanlarında uygulanan mekanik gerilim bu yapıların yoğunluğunu ve bütünlüğünü artırır.
+
+
+
+-Fonksiyonel Güç: Güç antrenmanları, günlük yaşam aktivitelerini (kaldırma, taşıma, hareket etme) daha etkili bir şekilde gerçekleştirebilmek için gerekli olan fonksiyonel gücü artırır.
+
+
+
+-Denge ve Koordinasyon İyileşmesi: Güç antrenmanları, kasları ve sinir sistemini güçlendirerek denge ve koordinasyonu arttırır."
+FontSize="15"
+FontFamily="Arial"
+TextColor="#252525"
+Padding="10,10,10,10"></Label>
+            </Frame>
+            <Frame Grid.Row="1"
+     CornerRadius="30"
+                   BackgroundColor="White"
+                   Grid.ColumnSpan="2"
+     WidthRequest="900"
+     Margin="0,0,0,0"
+     BorderColor="Transparent">
+
+                <Image
+                   
+ Source="https://www.agirsaglam.com/wp-content/uploads/2018/04/program3x5.png"></Image>
+            </Frame>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

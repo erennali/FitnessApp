@@ -30,11 +30,11 @@
                 Margin="0,20,0,0"
                 BorderColor="Transparent">
                 <Image
-            Source="standingdumbellflye.pmg"></Image>
+            Source="standingdumbellflye.pNg"></Image>
             </Frame>
 
             <Label
-                Text="HOW TO PERFORM"
+                Text="NASIL YAPILIR?"
                 FontSize="20"
                 FontFamily="Arial"
                 FontAttributes="Bold"
@@ -52,19 +52,19 @@
 
             <Frame
             CornerRadius="30"
-            WidthRequest="300"
+            WidthRequest="600"
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
             BackgroundColor="White"
             Opacity="0.8">
                 <Label
-        Text="Sit down on a flat bench with a dumbbell in each hand resting on your thighs. (The palms of your hands should be facing each other).
-Lower yourself down until you’re lying flat. The dumbbell should remain close to your chest.
-Once you’re lying flat, press the dumbbells up above your chest. This is your starting position.
-With a slight bend in your elbows, lower your arms laterally until you feel a stretch in your chest. The dumbbells should be level with your chest at both sides.
-Return your arms to the starting position and squeeze your pecs together. Remember to keep your arms steady throughout the movement.
-Don’t let the dumbbells touch as they meet at the top, holding for a second in the contracted position. Repeat the movement for the amount of reps you need."
+        Text="Her iki elinizde birer dambıl uyluklarınızın üzerinde duracak şekilde düz bir banka oturun. (Ellerinizin avuç içleri birbirine bakmalıdır).
+Düz yatana kadar kendinizi aşağı indirin. Dambıl göğsünüze yakın kalmalıdır.
+Düz yattığınızda, dambılları göğsünüzün üzerine doğru bastırın. Bu sizin başlangıç pozisyonunuzdur.
+Dirseklerinizde hafif bir bükülme ile göğsünüzde bir gerilme hissedene kadar kollarınızı yana doğru indirin. Dambıllar her iki tarafta da göğsünüzle aynı seviyede olmalıdır.
+Kollarınızı başlangıç pozisyonuna geri getirin ve göğüs kaslarınızı sıkın. Hareket boyunca kollarınızı sabit tutmayı unutmayın.
+Dambıllar üst kısımda buluştuğunda temas etmelerine izin vermeyin ve kasılmış pozisyonda bir saniye tutun. İhtiyacınız olan tekrar sayısı kadar hareketi tekrarlayın."
 FontSize="15"
 FontFamily="Arial"
 TextColor="#252525"
