@@ -20,6 +20,13 @@
                HorizontalOptions="Center" 
                WidthRequest="120" 
                HeightRequest="120"></Image>
+
+            <ImageButton Margin="1100,10,0,0" 
+  Padding="0,0,0,2" 
+  Source="settings.png" 
+  WidthRequest="45" 
+  HeightRequest="30" 
+  Clicked="ImageButton_Clicked"></ImageButton>
         </StackLayout>
 
 

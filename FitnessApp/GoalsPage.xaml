@@ -15,13 +15,34 @@
                          HeightRequest="30" 
                          Clicked="OnBackButton4Clicked"></ImageButton>
             
+            
+            
             <Image Source="loading4.png" 
                    HorizontalOptions="Center" 
                    WidthRequest="120" 
                    HeightRequest="120"></Image>
+            
+           <ImageButton Margin="1100,10,0,0" 
+             Padding="0,0,0,2" 
+             Source="settings.png" 
+             WidthRequest="45" 
+             HeightRequest="30" 
+             Clicked="ImageButton_Clicked"></ImageButton>
+            
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center">
+
+            
+
+            <Label Text="Merhaba " 
+       HorizontalOptions="Center"  
+       Margin="0,0,0,0" 
+       FontSize="25" 
+       FontFamily="Arial Rounded MT Bold" 
+       FontAttributes="Bold" 
+       TextColor="White"/>
+
             <Label Text="HEDEF" 
                    HorizontalOptions="Center"  
                    Margin="0,0,0,0" 

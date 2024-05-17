@@ -11,6 +11,7 @@ public class UserClass
     public int Id { get; set; }
     public string Username { get; set; }
     public string Password { get; set; }
+    public static string? Bio { get; set; }
     public string Email { get; set; }
     public int? Gender { get; set; }
     public DateOnly? Date { get; set; }

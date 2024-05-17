@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:FitnessApp"
+             
              x:Class="FitnessApp.ProfilePage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#AA364B51">
+             BackgroundColor="White">
     <ScrollView>
         <StackLayout Padding="20" Spacing="20" Orientation="Vertical">
         <StackLayout>
@@ -17,51 +18,33 @@
                            Scale="0.8"
                            />
                 </Frame>
-                <StackLayout VerticalOptions="Center" Margin="20,50,0,0">
-                    <Label x:Name="UsernameLabel"
-                           Text="{Binding Username}"
-                           TextColor="White"
-                           FontSize="30"
-                           FontAttributes="Bold"/>
-                    <Label
-                           Text="Male"
-                           TextColor="White"
-                           Opacity="0.5"></Label>
-                    <Label x:Name="BioLabel"
-                           Text="{Binding Bio}"
-                           TextColor="White"
-                           FontSize="18"/>
-                    <Label x:Name="EmailLabel"
-                           Text="{Binding Email}"
-                           TextColor="White"
-                           FontSize="18"/>
-                </StackLayout>
+                
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="0,0,0,20">
                 <VerticalStackLayout>
-                    <Entry x:Name="BioEntry" Placeholder="Enter your bio here" PlaceholderColor="White" Margin="10,0,20,0" TextColor="White"/>
+                    <Entry x:Name="BioEntry" WidthRequest="200" Placeholder="Biyografi" PlaceholderColor="White" Margin="10,0,20,0" TextColor="White"/>
                 </VerticalStackLayout>
                 <StackLayout Margin="0,10,35,20">
-                    <Button x:Name="SaveBioButton" Text="Save" HeightRequest="30" WidthRequest="50" BackgroundColor="#AA364B51" FontSize="7" TextColor="#BFC4C6" Clicked="SaveBioButton_Clicked"/>
+                    <Button x:Name="SaveBioButton" Text="Kaydet" HeightRequest="30" WidthRequest="80" BackgroundColor="#AA364B51" FontSize="12" TextColor="#BFC4C6" Clicked="SaveBioButton_Clicked"/>
                 </StackLayout>
             </StackLayout>
 
 
 
                 <HorizontalStackLayout>
-                    <Label Text="UPDATE YOUR BMI:"
+                    <Label Text="VKI Guncellemesi:"
                 HorizontalOptions="CenterAndExpand"
                FontFamily="ArialRoundedMTBold"
                FontSize="15"
                TextColor="White"
-               Margin="100,20,0,50"/>
+               Margin="350,20,0,50"/>
                 </HorizontalStackLayout>
 
 
                 <VerticalStackLayout>
                     <HorizontalStackLayout
                         HorizontalOptions="CenterAndExpand">
-                        <Label Text="HEIGHT:"
+                        <Label Text="Boy:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
                FontFamily="ArialRoundedMTBold"
@@ -93,7 +76,7 @@
                     <HorizontalStackLayout
                         
                         HorizontalOptions="CenterAndExpand">
-                        <Label Text="WEIGHT:"
+                        <Label Text="A��rl�k:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
                FontFamily="ArialRoundedMTBold"
@@ -124,7 +107,7 @@
 
                     <VerticalStackLayout>
         <Label x:Name="BmiLabel" 
-               Text="YOUR BMI SCORE:"
+               Text="V�cut Kitle �ndeksi:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="ArialRoundedMTBold"
@@ -143,7 +126,7 @@
                Margin="0,0,0,10"             />
 
         <Label x:Name="ClassificationLabel" 
-               Text="Classification:"
+               Text="S�n�f:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="ArialRoundedMTBold"
@@ -152,54 +135,6 @@
 
                     </VerticalStackLayout>
                 </VerticalStackLayout>
-
-
-
-
-                <StackLayout>
-                    <Label  Text="CHANGE PASSWORD"
-                            TextColor="White"
-                            FontFamily="ArialRoundedMTBold"
-                            FontSize="15"
-                            Margin="0,0,0,20"
-                            HorizontalOptions="CenterAndExpand"/>
-                    <StackLayout>
-                        <StackLayout Margin="35,10,35,0">
-                            <Entry x:Name="OldPasswordEntry"
-                               Placeholder="Old Password"
-                               PlaceholderColor="White"
-                               Margin="20,0,20,0"
-                               TextColor="{x:StaticResource White}"/>
-                        </StackLayout>
-                        <StackLayout Margin="35,10,35,0">
-                            <Entry x:Name="NewPasswordEntry"
-                               Placeholder="New Password"
-                               IsPassword="True"
-                               PlaceholderColor="White"
-                               Margin="20,0,20,0"
-                               TextColor="{x:StaticResource White}"/>
-                        </StackLayout>
-                        <StackLayout Margin="35,10,35,0">
-                            <Entry x:Name="ConfirmPasswordEntry"
-                               Placeholder="Confirm Password"
-                               IsPassword="True"
-                               PlaceholderColor="White"
-                               Margin="20,0,20,0"
-                               TextColor="{x:StaticResource White}"/>
-                        </StackLayout>
-                    </StackLayout>
-                    <StackLayout Margin="35,10,35,0">
-                        <Button x:Name="ChangePasswordButton"
-                            Text="Change Password"
-                            HeightRequest="40"
-                            WidthRequest="255"
-                            CornerRadius="20"
-                            BackgroundColor="#AA364B51"
-                            TextColor="#BFC4C6"
-                            FontFamily="Arial"
-                            Clicked="ChangePasswordButton_Clicked"/>
-                    </StackLayout>
-                </StackLayout>
 
             </StackLayout>
     </StackLayout>

@@ -23,6 +23,10 @@ namespace FitnessApp
             var weightPage = new BMIWeightPage(_height);
             await Navigation.PushAsync(weightPage);
         }
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SettingsPage());
+        }
         private void OnBackButtonClicked(object sender, EventArgs e)
         {
             Navigation.PopAsync();

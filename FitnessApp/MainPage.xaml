@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.MainPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False" Loaded="ContentPage_Loaded">
     <ScrollView>
     <StackLayout>
         <VerticalStackLayout>
@@ -53,7 +53,7 @@ Margin="200,100,0,0"
                      VerticalOptions="EndAndExpand">
 
             <Button x:Name="NavigateButtSn" 
-                    Text="Kayıt Ol" 
+                    Text="Giriş Yap/Kayıt Ol" 
                     Clicked="OnNavigateButtonClicked" 
                     CornerRadius="20"
                     Margin="30,0,30,40" 
@@ -62,7 +62,7 @@ Margin="200,100,0,0"
                     FontSize="13"
                     HeightRequest="60" 
                     BackgroundColor="#364B51" 
-                    TextColor="#BFC4C6">
+                    TextColor="White">
             </Button>
 
         </StackLayout>

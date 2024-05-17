@@ -13,7 +13,7 @@
                 HeightRequest="90"
                 >
                 <Image
-                    Source="logotextpng.png"
+                    Source="settings.png"
                     Scale="1">
                 </Image>
             </Frame>
@@ -21,7 +21,7 @@
 
 
 
-        <Label Text="SETTINGS"
+        <Label Text="AYARLAR"
                    HorizontalOptions="CenterAndExpand"
                    FontFamily="ArialRoundedMTBold"
                    FontSize="20"
@@ -32,7 +32,7 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Profile Page"
+            <Button Text="Profil "
                     CornerRadius="0"
                     HeightRequest="60"
                     BackgroundColor="Transparent"
@@ -42,7 +42,7 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Workout Page"
+            <Button Text="Antrenman"
                     CornerRadius="0"
                     HeightRequest="60"
                     BackgroundColor="Transparent"
@@ -51,25 +51,15 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Carousel Page"
-                    CornerRadius="0"
-                    HeightRequest="60"
-                    BackgroundColor="Transparent"
-                    Clicked="OnCarouselPageClicked">
-            </Button>
+            
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Home Page"
-                    CornerRadius="0"
-                    HeightRequest="60"
-                    BackgroundColor="Transparent"
-                    Clicked="OnHomePageClicked">
-            </Button>
+            
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Change Password"
+            <Button Text="Şifre Değiştir"
                     CornerRadius="0"
                     HeightRequest="60"
                     BackgroundColor="Transparent"
@@ -78,7 +68,7 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="About Us"
+            <Button Text="Hakkında"
                     CornerRadius="0"
                     HeightRequest="60"
                     BackgroundColor="Transparent"
@@ -87,7 +77,7 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Log Out"
+            <Button Text="Çıkış Yap"
                     CornerRadius="0"
                     HeightRequest="60"
                     BackgroundColor="Transparent"

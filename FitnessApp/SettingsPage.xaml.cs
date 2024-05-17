@@ -12,19 +12,11 @@ public partial class SettingsPage : ContentPage
     }
     void OnChangePasswordClicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new FemaleProfilePage());
+        Navigation.PushAsync(new PasswordPage());
     }
     void OnWorkoutPageClicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new WorkoutPage());
-    }
-    void OnCarouselPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new MaleFrontPage());
-    }
-    void OnHomePageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new TabbedPage());
     }
     void OnAboutUsClicked(object sender, EventArgs e)
     {

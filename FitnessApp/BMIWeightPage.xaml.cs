@@ -13,6 +13,10 @@ namespace FitnessApp
             InitializeComponent();
             _height = height;
         }
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SettingsPage());
+        }
 
         private void OnValueChanged(object sender, ValueChangedEventArgs e)
         {

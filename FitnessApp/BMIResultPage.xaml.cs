@@ -27,7 +27,10 @@ namespace FitnessApp
             Navigation.PushAsync(new GoalsPage());
         }
 
-
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SettingsPage());
+        }
         public static double BmiValue { get; set; }
 
         private void CalculateBmi()
