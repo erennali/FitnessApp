@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             
+             xmlns:local="clr-namespace:FitnessApp"
              x:Class="FitnessApp.ProfilePage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
@@ -9,17 +9,39 @@
         <StackLayout Padding="20" Spacing="20" Orientation="Vertical">
         <StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="0,0,0,20">
-                <Frame CornerRadius="200" WidthRequest="130" HeightRequest="130">
-                    <Image x:Name="ProfileImage"
+                    <Frame CornerRadius="200" WidthRequest="130" HeightRequest="130">
+                        <Image x:Name="ProfileImage"
                            Source="defaultprofilepicture.png"
                            WidthRequest="100"
                            HeightRequest="100"
                            Aspect="AspectFill"
                            Scale="0.8"
                            />
-                </Frame>
+                    </Frame> <!--binding olayını çöz--> 
+                    <StackLayout VerticalOptions="Center" Margin="20,50,0,0">
+                        <Label x:Name="UsernameLabel"
+                           Text="{Binding Username}"
+                           TextColor="White"
+                           FontSize="30"
+                           FontAttributes="Bold"/>
+                        <Label
+                           Text="Male"
+                           TextColor="White"
+                           Opacity="0.5"></Label>
+                        <Label x:Name="BioLabel"
+                           Text="{Binding Bio}"
+                           TextColor="White"
+                           FontSize="18"/>
+                        <Label x:Name="EmailLabel"
+                           Text="{Binding Email}"
+                           TextColor="White"
+                           FontSize="18"/>
+                    </StackLayout>
                 
-            </StackLayout>
+
+
+
+                </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="0,0,0,20">
                 <VerticalStackLayout>
                     <Entry x:Name="BioEntry" WidthRequest="200" Placeholder="Biyografi" PlaceholderColor="White" Margin="10,0,20,0" TextColor="White"/>
@@ -76,7 +98,7 @@
                     <HorizontalStackLayout
                         
                         HorizontalOptions="CenterAndExpand">
-                        <Label Text="A��rl�k:"
+                        <Label Text="Agirlik:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
                FontFamily="ArialRoundedMTBold"
@@ -107,7 +129,7 @@
 
                     <VerticalStackLayout>
         <Label x:Name="BmiLabel" 
-               Text="V�cut Kitle �ndeksi:"
+               Text="Vucut Kitle Endeksi:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="ArialRoundedMTBold"
@@ -126,7 +148,7 @@
                Margin="0,0,0,10"             />
 
         <Label x:Name="ClassificationLabel" 
-               Text="S�n�f:"
+               Text="Sinif:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="ArialRoundedMTBold"

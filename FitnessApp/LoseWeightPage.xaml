@@ -192,6 +192,7 @@ FontSize="13"/>
             <Frame Grid.Column="1"
             CornerRadius="30"
             WidthRequest="650"
+                   HeightRequest="300"
             Margin="0,20,0,20"
             BorderColor="Transparent"
             Padding="20"

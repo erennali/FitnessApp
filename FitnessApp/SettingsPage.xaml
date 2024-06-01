@@ -51,11 +51,11 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            
+
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            
+
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
@@ -74,6 +74,27 @@
                     BackgroundColor="Transparent"
                     Clicked="OnAboutUsClicked">
             </Button>
+
+            <StackLayout
+    BackgroundColor="#AAFFFFFF"
+    HeightRequest="1"></StackLayout>
+            
+            <HorizontalStackLayout HorizontalOptions="Center" >
+                <Entry Placeholder="E-Postanızı Giriniz" x:Name="txtMetin" 
+                    HeightRequest="60"
+                    BackgroundColor="Transparent" />
+                
+                <Button Text="Hesabımı Sil"
+        CornerRadius="0"
+        HeightRequest="60"
+        BackgroundColor="Transparent"
+        Clicked="Button_Clicked">
+                </Button>
+            </HorizontalStackLayout>
+
+
+
+
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>

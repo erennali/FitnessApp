@@ -17,7 +17,7 @@ namespace FitnessApp
 
         private void AddExerciseButton_Clicked(object sender, EventArgs e)
         {
-           /* Color White = Color.FromRgb(255, 255, 255);
+            Color White = Color.FromRgb(255, 255, 255);
             Color Black = Color.FromRgb(0, 0, 0);
             string exerciseName = ExerciseNameEntry.Text;
           int sets = Convert.ToInt32(SetsEntry.Text);
@@ -65,7 +65,7 @@ namespace FitnessApp
                 Text = "Sil",
                 TextColor = White,
                 BackgroundColor = Color.FromHex("#AA364B51"),
-                FontSize = 5,
+                FontSize = 9,
                 HorizontalOptions = LayoutOptions.Start,
                 HeightRequest = 60,
                 WidthRequest = 60,
@@ -73,19 +73,19 @@ namespace FitnessApp
 
 
 
-            //deleteButton.Clicked += DeleteButton_Clicked;
+            deleteButton.Clicked += DeleteButton_Clicked;
 
             exerciseStackLayout.Children.Add(muscleGroupLabel);
             exerciseStackLayout.Children.Add(exerciseLabel);
             exerciseStackLayout.Children.Add(deleteButton);
-            ExerciseStackLayout.Children.Add(exerciseStackLayout);*/
+            ExerciseStackLayout.Children.Add(exerciseStackLayout);
         }
 
         void DeleteButton_Clicked(object sender, EventArgs e)
         {
-            /*var button = (Button)sender;
+            var button = (Button)sender;
             var exerciseStackLayout = (StackLayout)button.Parent;
-            ExerciseStackLayout.Children.Remove(exerciseStackLayout);*/
+            ExerciseStackLayout.Children.Remove(exerciseStackLayout);
         }
 
     }

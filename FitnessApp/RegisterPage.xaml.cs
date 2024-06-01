@@ -7,10 +7,10 @@ namespace FitnessApp;
 
 public partial class RegisterPage : ContentPage
 {
-	public RegisterPage()
-	{
-		InitializeComponent();
-	}
+    public RegisterPage()
+    {
+        InitializeComponent();
+    }
     private async void OnBackButton6Clicked(object sender, EventArgs e)
     {
 
@@ -22,11 +22,17 @@ public partial class RegisterPage : ContentPage
         try
         {
             FitnessDbContext context = new FitnessDbContext();
-            var person = new UserClass { Username=UsernameEntry.Text,Password=PasswordEntry.Text,Email=EmailEntry.Text,Gender= PickerEntry.SelectedIndex };
-            context.Users.Add(person);
-            context.SaveChanges();
-            await DisplayAlert("Baþarý","Kayýt Baþarýlý", "Tamam");
-            await Navigation.PushAsync(new LoginPage());
+            if (checkBoxEtkinlik.IsChecked)
+            {
+                var person = new UserClass { Username = UsernameEntry.Text, Password = PasswordEntry.Text, Email = EmailEntry.Text, Gender = PickerEntry.SelectedIndex };
+                context.Users.Add(person);
+                context.SaveChanges();
+                await DisplayAlert("Baþarý", "Kayýt Baþarýlý", "Tamam");
+                await Navigation.PushAsync(new LoginPage());
+            }
+            else
+                await DisplayAlert("Hata", "Lütfen Onay Kutucuðunu Onaylayýnýz", "Ok");
+
         }
         catch (Exception ex)
         {

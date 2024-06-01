@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.PersonList"
+             Title="PersonList">
+  <ScrollView>
+      <VerticalStackLayout Padding="30">
+
+            
+
+
+            <CollectionView x:Name="MyCollectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <HorizontalStackLayout  Spacing="20">
+                                <Label Margin="0,4,0,0" Text="Kullanıcı Adı: " FontSize="Small" />
+                                <Label  Text="{Binding Username}" FontSize="Medium" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="20">
+                                <Label Margin="0,4,0,0" Text="E-Mail: " FontSize="Small" />
+                            <Label Text="{Binding Email}" FontSize="Medium" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="20">
+                                <Label Margin="0,4,0,0" Text="Şifre: " FontSize="Small" />
+                            <Label Text="{Binding Password}" FontSize="Medium" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="20">
+                                <Label Margin="0,4,0,0" Text="Doğum Tarihi: " FontSize="Small" />
+                                <Label Text="{Binding Date}" FontSize="Medium" />
+                        </HorizontalStackLayout>
+                        
+                        
+
+                        </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+            <VerticalStackLayout.Background>
+
+                <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                    <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                    <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </VerticalStackLayout.Background>
+
+        </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>

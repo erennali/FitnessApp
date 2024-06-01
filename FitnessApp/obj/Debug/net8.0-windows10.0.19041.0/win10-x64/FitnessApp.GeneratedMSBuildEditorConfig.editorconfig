@@ -402,6 +402,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.PasswordPage.xa
 build_metadata.AdditionalFiles.TargetPath = PasswordPage.xaml
 build_metadata.AdditionalFiles.RelativePath = PasswordPage.xaml
 
+[D:/C\# PROJELER/FitnessApp/FitnessApp/PersonList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.PersonList.xaml
+build_metadata.AdditionalFiles.TargetPath = PersonList.xaml
+build_metadata.AdditionalFiles.RelativePath = PersonList.xaml
+
 [D:/C\# PROJELER/FitnessApp/FitnessApp/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.ProfilePage.xaml

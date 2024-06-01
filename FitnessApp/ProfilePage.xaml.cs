@@ -21,23 +21,23 @@ namespace FitnessApp
         public ProfilePage()
         {
             InitializeComponent();
-           //EmailLabel.Text = UserSessionClass.Email;
-           // UsernameLabel.Text = UserSessionClass.Username;
+           EmailLabel.Text = UserSessionClass.Email;
+           UsernameLabel.Text = UserSessionClass.Username;
             SaveBioButton.Clicked += SaveBioButton_Clicked;
             OnAppearing();
         }
 
         private void SaveBioButton_Clicked(object sender, EventArgs e)
         {
-            //string bio = BioEntry.Text;
+            string bio = BioEntry.Text;
 
-            //var person = context.Users.Where(x => x.Email == UserSessionClass.Username).FirstOrDefault();
-            //if (person != null)
-            //{ 
-            //    //person.Bio = BioLabel.Text;
-            //    context.SaveChanges();
-            //}
-            // DisplayAlert("Baþarýlý", "Bio güncellendi!", "OK");
+            var person = context.Users.FirstOrDefault();
+            if (person != null)
+            { 
+                person.Bio = BioEntry.Text;
+                context.SaveChanges();
+            }
+             DisplayAlert("Baþarýlý", "Bio güncellendi!", "OK");
         }
 
 
