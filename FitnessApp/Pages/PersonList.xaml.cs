@@ -19,4 +19,9 @@ public partial class PersonList : ContentPage
             MyCollectionView.ItemsSource = veriler;
         }
     }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new LoginPage());
+    }
 }

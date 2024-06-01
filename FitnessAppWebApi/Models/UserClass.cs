@@ -14,7 +14,9 @@ public class UserClass
     public string? Bio { get; set; }
     public string Email { get; set; }
     public int? Gender { get; set; }
-    public DateOnly? Date { get; set; }
+    public DateTime? Date { get; set; }
+    public DateTime CreatedDate { get; set; }
+    public DateTime? UpdatedDate { get; set; }
 
 
 }

@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-01T15:43:49.071</Modified>
+      <Modified>2024-06-01T21:34:49.401</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.dll">
       <PackagePath>FitnessApp.dll</PackagePath>
-      <Modified>2024-06-01T15:43:47.759</Modified>
+      <Modified>2024-06-01T21:34:47.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\obj\Debug\net8.0\apphost.exe">
       <PackagePath>FitnessAppWebApi.exe</PackagePath>
-      <Modified>2024-06-01T13:09:52.765</Modified>
+      <Modified>2024-06-01T21:34:44.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FitnessApp.exe</PackagePath>
-      <Modified>2024-06-01T15:43:47.764</Modified>
+      <Modified>2024-06-01T21:34:47.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.runtimeconfig.json">
       <PackagePath>FitnessAppWebApi.runtimeconfig.json</PackagePath>
@@ -1007,7 +1007,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.dll">
       <PackagePath>FitnessAppWebApi.dll</PackagePath>
-      <Modified>2024-06-01T13:09:52.757</Modified>
+      <Modified>2024-06-01T21:34:44.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.deps.json">
       <PackagePath>FitnessApp.deps.json</PackagePath>

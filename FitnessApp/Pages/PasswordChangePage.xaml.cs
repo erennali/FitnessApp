@@ -25,8 +25,11 @@ public partial class PasswordChangePage : ContentPage
             
             if (person.Password != PasswordChangeEntry.Text) {
                 person.Password = PasswordChangeEntry.Text;
+                person.UpdatedDate = DateTime.Now;
                 context.SaveChanges();
             await DisplayAlert("Baþarý", "Þifre Deðiþtirildi", "Tamam");
+                
+
             await Navigation.PushAsync(new LoginPage()); 
             }
             else

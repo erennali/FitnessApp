@@ -93,6 +93,9 @@
                    FontAttributes="Bold" 
                    TextColor="#364B51" 
                   />
+                <HorizontalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_For_SignUp"/>
+                </HorizontalStackLayout.GestureRecognizers>
             </HorizontalStackLayout>
             <HorizontalStackLayout HorizontalOptions="End" Margin="0,0,0,0">
 
@@ -120,9 +123,7 @@
                    Clicked="Button_Clicked"
                    />
 
-                <HorizontalStackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_For_SignUp"/>
-                </HorizontalStackLayout.GestureRecognizers>
+                
             </HorizontalStackLayout>
 
             <StackLayout.Background>

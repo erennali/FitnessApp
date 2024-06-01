@@ -11,28 +11,28 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <MauiXaml Update="LoginPage.xaml">
+    <MauiXaml Update="Pages\LoginPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="LoseWeightPage.xaml">
+    <MauiXaml Update="Pages\LoseWeightPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MusclePage.xaml">
+    <MauiXaml Update="Pages\MusclePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="PasswordChangePage.xaml">
+    <MauiXaml Update="Pages\PasswordChangePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="PasswordPage.xaml">
+    <MauiXaml Update="Pages\PasswordPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="PersonList.xaml">
+    <MauiXaml Update="Pages\PersonList.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="RegisterPage.xaml">
+    <MauiXaml Update="Pages\RegisterPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="StrenghtPage.xaml">
+    <MauiXaml Update="Pages\StrenghtPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
