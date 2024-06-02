@@ -15,4 +15,6 @@ public class ExerciseClass
     public double Weight { get; set; }
     public string MuscleGroup { get; set; }
 
+    public DateTime? DoExercises { get; set; }
+
 }

@@ -26,10 +26,19 @@ public partial class LoginPage : ContentPage
                 FitnessDbContext context = new FitnessDbContext();
                 var query = context.Users.Where(u => u.Email == EmailEntry.Text);
                 var user = await query.FirstOrDefaultAsync();
+
+                if (user.LoginTime.AddDays(1) > DateTime.Now)
+                    await DisplayAlert("Hatýrlatma!", "Bugün antrenmana gitmediniz!", "Ok");
+                //1 günden fazla antrenmana gidilmezse giriþ ekranýnda uyarý verecek.
+
+
                 if (user != null && user.Password == PasswordEntry.Text)
                 {
                     UserCred.Email = user.Email;
                     UserSessionClass.Username = user.Email;
+
+                    user.LoginTime = DateTime.Now;//uygulamaya giriþ yapýlýrsa bu tarih güncelleniyor.
+                    context.SaveChanges();
                     await Navigation.PushAsync(new BMIHeightPage());
                 }
                 else

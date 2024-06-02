@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-01T21:34:49.401</Modified>
+      <Modified>2024-06-02T07:01:59.221</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-01T14:26:28.926</Modified>
+      <Modified>2024-06-01T22:05:32.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.runtimeconfig.json">
       <PackagePath>FitnessApp.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.dll">
       <PackagePath>FitnessApp.dll</PackagePath>
-      <Modified>2024-06-01T21:34:47.586</Modified>
+      <Modified>2024-06-02T07:01:57.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\obj\Debug\net8.0\apphost.exe">
       <PackagePath>FitnessAppWebApi.exe</PackagePath>
-      <Modified>2024-06-01T21:34:44.564</Modified>
+      <Modified>2024-06-02T07:01:54.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FitnessApp.exe</PackagePath>
-      <Modified>2024-06-01T21:34:47.593</Modified>
+      <Modified>2024-06-02T07:01:57.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.runtimeconfig.json">
       <PackagePath>FitnessAppWebApi.runtimeconfig.json</PackagePath>
@@ -1007,11 +1007,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessAppWebApi\bin\Debug\net8.0\FitnessAppWebApi.dll">
       <PackagePath>FitnessAppWebApi.dll</PackagePath>
-      <Modified>2024-06-01T21:34:44.500</Modified>
+      <Modified>2024-06-02T07:01:54.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# PROJELER\FitnessApp\FitnessApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FitnessApp.deps.json">
       <PackagePath>FitnessApp.deps.json</PackagePath>
-      <Modified>2024-06-01T14:26:29.081</Modified>
+      <Modified>2024-06-01T22:05:32.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erenali\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

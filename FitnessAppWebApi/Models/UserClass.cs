@@ -18,5 +18,8 @@ public class UserClass
     public DateTime CreatedDate { get; set; }
     public DateTime? UpdatedDate { get; set; }
 
+    public DateTime LoginTime { get; set; }= DateTime.Now;
+
+
 
 }

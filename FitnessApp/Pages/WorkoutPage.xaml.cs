@@ -32,9 +32,12 @@ namespace FitnessApp
                 Sets = sets,
                 Reps = reps,
                 Weight = weight,
-                MuscleGroup = muscleGroup
+                MuscleGroup = muscleGroup,
+                DoExercises = DateTime.Now
             };
 
+            context.Exercises.Add(exercise);
+            context.SaveChanges();
 
             StackLayout exerciseStackLayout = new StackLayout
             {
@@ -45,7 +48,7 @@ namespace FitnessApp
 
             Label exerciseLabel = new Label
             {
-                Text = $"{exercise.Name} - {exercise.Sets} set- {exercise.Reps} tekrar-  {exercise.Weight} kg",
+                Text = $"{exercise.Name} - {exercise.Sets} set- {exercise.Reps} tekrar-  {exercise.Weight} kg - Egzersiz Tarihi: {exercise.DoExercises} ",
                 TextColor = White,
                 VerticalOptions = LayoutOptions.Center,
                 Margin = new Thickness(0, 0, 0, 0)
