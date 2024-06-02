@@ -11,7 +11,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <MauiXaml Update="MernisCheckPage.xaml">
+    <MauiXaml Update="DuyuruPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\MernisCheck\MernisCheckPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\LoginPage.xaml">

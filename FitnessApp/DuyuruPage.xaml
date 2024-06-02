@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.DuyuruPage"
+             Title="DuyuruPage"
+             xmlns:mySelector="clr-namespace:FitnessApp.Abstract.DataSelector"
+             Loaded="ContentPage_Loaded">
+    <ContentPage.Resources>
+        <DataTemplate x:Key="duyuruTemplate">
+            <Grid
+                Margin="0,10"
+                Padding="0,10"
+                RowDefinitions="Auto,Auto,50">
+                <BoxView
+                    Grid.RowSpan="3"
+                    CornerRadius="20"
+                    Color="#364B51" />
+                <Label
+                    Grid.Row="0"
+                    Margin="0,10"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="{Binding Baslik}"
+                    TextColor="White" />
+                <Label
+                    Grid.Row="1"
+                    Margin="0,10"
+                    FontSize="12"
+                    Text="{Binding Icerik}" />
+                <Label
+                    Grid.Row="2"
+                    Margin="10"
+                    Text="{Binding Tarih, StringFormat='Yayın Tarihi - {00:dd.MM.yyyy}'}" />
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="haberTemplate">
+            <Grid
+                Margin="0,10"
+                Padding="0,10"
+                RowDefinitions="100,Auto,Auto,50">
+                <BoxView
+                    Grid.RowSpan="4"
+                    CornerRadius="20"
+                    Color="#364B62" />
+                <Image Source="{Binding ImageUrl}" />
+                <Label
+                    Grid.Row="1"
+                    Margin="0,10"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="{Binding Baslik}" />
+                <Label
+                    Grid.Row="2"
+                    Margin="0,10"
+                    FontSize="12"
+                    Text="{Binding Icerik}" />
+            </Grid>
+        </DataTemplate>
+
+        <mySelector:DuyurularDataTemplateSelector
+            x:Key="DuyuruTemplateSelector"
+            DuyuruTemplate="{StaticResource duyuruTemplate}"
+            HaberTemplate="{StaticResource haberTemplate}" />
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <CollectionView
+                x:Name="collectionViewDuyuru"
+                HeightRequest="800"
+                ItemTemplate="{StaticResource DuyuruTemplateSelector}"
+                ItemsUpdatingScrollMode="KeepScrollOffset"
+                RemainingItemsThreshold="5"
+                RemainingItemsThresholdReached="collectionViewDuyuru_RemainingItemsThresholdReached" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -70,7 +70,6 @@
 
 	<ItemGroup>
 	  <Folder Include="Exercises\" />
-	  <Folder Include="Abstract\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -78,7 +77,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="MernisCheckPage.xaml">
+	  <MauiXaml Update="DuyuruPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\MernisCheck\MernisCheckPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\LoginPage.xaml">

@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[D:/C\# PROJELER/FitnessApp/FitnessApp/DuyuruPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.DuyuruPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DuyuruPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DuyuruPage.xaml
+
 [D:/C\# PROJELER/FitnessApp/FitnessApp/Exercises/ArmsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Exercises.ArmsPage.xaml
@@ -324,12 +330,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/C\# PROJELER/FitnessApp/FitnessApp/MernisCheckPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MernisCheckPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MernisCheckPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MernisCheckPage.xaml
-
 [D:/C\# PROJELER/FitnessApp/FitnessApp/Pages/AboutUsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Pages.AboutUsPage.xaml
@@ -389,6 +389,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Pages.MaleMusclePaGE.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MaleMusclePaGE.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MaleMusclePaGE.xaml
+
+[D:/C\# PROJELER/FitnessApp/FitnessApp/Pages/MernisCheck/MernisCheckPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Pages.MernisCheck.MernisCheckPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MernisCheck\MernisCheckPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MernisCheck\MernisCheckPage.xaml
 
 [D:/C\# PROJELER/FitnessApp/FitnessApp/Pages/MusclePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

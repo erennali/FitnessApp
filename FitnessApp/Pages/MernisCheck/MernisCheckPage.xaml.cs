@@ -62,7 +62,7 @@ public partial class MernisCheckPage : ContentPage
                 string result = reader.ReadToEnd();
                 if (result.Contains("<TCKimlikNoDogrulaResult>true</TCKimlikNoDogrulaResult>"))
                 {
-                    await DisplayAlert("Baþarýlý", "Mernis üzerinden kimlik doðrulama iþlemi baþarýlý", "Tamam");
+                    await DisplayAlert("Baþarýlý", "Mernis üzerinden kimlik doðrulama iþlemi baþarýlý", "Devam Et");
                     await Navigation.PushAsync(new RegisterPage());
                 }
                 else

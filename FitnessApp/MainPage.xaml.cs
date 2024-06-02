@@ -38,6 +38,11 @@
                     }
             }
         }
+
+        private async void NavigateButtSn2_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DuyuruPage());
+        }
     }
 
 }
