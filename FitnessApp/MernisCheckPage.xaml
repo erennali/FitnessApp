@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.MernisCheckPage"
+             Title="Mernis Kontrol Sayfası">
+
+    <StackLayout Spacing="10" Padding="30">
+        <Label 
+            Margin="0,50,0,0"
+            Text="İsim" FontSize="Small" />
+        <Entry  x:Name="isim" Placeholder="İsim"/>
+        <Label Text="Soyisim" FontSize="Small" />
+        <Entry  x:Name="soyad"  Placeholder="Soyisim"/>
+        <Label Text="TC"  FontSize="Small"/>
+        <Entry  MaxLength="11" x:Name="tc" Keyboard="Numeric"    Placeholder="Türkiye Cumhuriyeti Kimlik Numarası"/>
+        <Label Text="Doğum Tarihi" FontSize="Small" />
+        <DatePicker FontSize="Small" x:Name="dtarih"  Format="yyyy-MM-dd"/>
+        <Button Text="Kontrol Et" 
+                Clicked="Button_Clicked" 
+                Margin="0,100,0,0"  
+                BackgroundColor="#364B51"
+                WidthRequest="250"
+                HeightRequest="65"
+                FontSize="13" 
+                FontAttributes="Bold" 
+                TextColor="WhiteSmoke"/>
+
+
+        <StackLayout.Background>
+
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+    </StackLayout>
+
+</ContentPage>
